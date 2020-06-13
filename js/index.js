@@ -2,6 +2,7 @@ var index=0;
 $(function(){
 	setInterval(ChangeImg,2000);
 	scrollTop();
+    activeMenu();
 });	
 //轮播图进行图片切换方法 
 function ChangeImg() {
@@ -24,4 +25,20 @@ function scrollTop(){
             $(".fixContent").fadeOut(1000); // 如果小于等于 300 淡出
         }
     });
+}
+
+function activeMenu(){
+    $('.fixMenu ul li').each(function(){
+        var _this = $(this);
+        _this.on('click',function(){
+            _this.find('img').attr('src','./imgs/icon/'+_this.find('img').attr("data-active"));
+            _this.find('span').css('color','#000');
+            var lists=_this.siblings();
+            for (var i = 0; i < lists.length; i++) {
+                $(lists[i]).find('img').attr('src','./imgs/icon/'+$(lists[i]).find('img').attr("data-common"));
+                $(lists[i]).find('span').css('color','gray');
+            }
+
+        })
+    })
 }

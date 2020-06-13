@@ -28,6 +28,9 @@
 <div id="TOP" style="height: 0;"></div>
 <div class="content">	
 	<div class="header">
+		<span class="btn">
+			<img src="./imgs/icon/caidan.png" class="caidan">
+		</span>
 		<span class="title">MA  CHÉRIE</span>
 		<small class="smallTitle">P A R I S</small>
 		<ul class="rightFunctionalArea">
@@ -40,12 +43,12 @@
 				<a href="#">登录</a>&nbsp;|&nbsp;<a href="#">注册</a>
 			</li>
 			<li>
-				<img src="./imgs/icon/cart.png" class="cart">&nbsp;
+				<img src="./imgs/icon/cart2.png" class="cart">&nbsp;
 				<a href="#">购物车</a>
 			</li>
 		</ul>
 	</div>	
-	<div class="menu menu1">
+	<div class="menu menu1 menuPc">
 		<div class="menuTitle">
 			<span><i>MA  CHÉRIE</i></span>
 			<small>Online Store</small>
@@ -61,6 +64,16 @@
 		<div class="menuSearch">
 			<input type="text" name="secrch">
 			<img src="./imgs/icon/search.png">
+		</div>
+	</div>
+	<div class="menu menu1 menuPide">
+		<div class="menuA">
+			<ul>
+				<li><a href="#">SHOP 商城</a></li>
+				<li><a href="#">HISTORY 历史</a></li>
+				<li><a href="#">MEMBER 会员中心</a></li>
+				<li><a href="#">CONTACT 联系我们</a></li>
+			</ul>
 		</div>
 	</div>
 	<div style="width: 100%;height: 27px;background-color: #EEEEEE;" class="border"></div>
@@ -80,10 +93,14 @@
 						<li><a href="#">CONTACT 联系我们</a></li>
 					</ul>
 				</div>
-				<div class="menuSearch">
-					<input type="text" name="secrch">
-					<img src="./imgs/icon/search.png">
+				<img src="./imgs/icon/scanning.png" class="saoma">
+				<div class="menuSearch">					
+					<img src="./imgs/icon/search1.png" class="search">
+					<input type="text" name="secrch"><span class="btn">搜索</span>
+					<img src="./imgs/icon/camera.png" class="canemar">
+					
 				</div>
+				<img src="./imgs/icon/erweima.png" class="erweima">
 			</div>
 			<div class="two"></div>
 			<div class="three">
@@ -110,8 +127,10 @@
 		<div class="three">
 			<div class="item item1"></div>
 			<div class="item item2"></div>
+			<div class="item item5"></div>
 			<div class="item item3"></div>
 			<div class="item item4"></div>
+			<div class="item item6"></div>
 		</div>
 		<div class="four"></div>
 	</div>
@@ -239,17 +258,37 @@
 		</div>	
 		<div class="right"></div>
 	</div>
+	<div class="fourContentOfMobile">
+		<div class="title">
+			6.1 FOR CHILDREN
+		</div>
+		<ul class="clear">
+			<li class="moblieOne">
+				<img src="#" class="mobileImg">
+				<div class="miaoshu">缤纷巧克力</div>
+			</li>
+			<li class="moblieTwo">
+				<img src="#" class="mobileImg">
+				<img src="./imgs/assets/helena-pg_2400x2400@3x.png" class="mobileImg">
+				<div class="miaoshu">惊喜礼盒</div>
+			</li>
+			<li class="moblieThree">
+				<img src="./imgs/assets/featuredblock02-3x.png" class="mobileImg">
+				<div class="miaoshu">树莓马卡龙</div>
+			</li>
+		</ul>
+	</div>
 	<div class="fiveContent">
 		<div class="one"></div>
 		<div class="two"></div>
 		<div class="three">
 		    <ul class="clear">
-		    	<li><img src="./imgs/assets/dfdsgdgrthgfhg3x.png" alt="5"></li>
-		    	<li><img src="./imgs/assets/MACARONEOther3x.png" alt="5"></li>
-		    	<li><img src="./imgs/assets/jhfghfsgr3x.png" alt="5"></li>
-		    	<li><img src="./imgs/assets/hfdghsgts3x.png" alt="5"></li>
-		    	<li><img src="./imgs/assets/qdfshtda3x.png" alt="5"></li>
-		    	<li></li>
+		    	<li class="one"><img src="./imgs/assets/dfdsgdgrthgfhg3x.png" alt="5"></li>
+		    	<li class="two"><img src="./imgs/assets/MACARONEOther3x.png" alt="5"></li>
+		    	<li class="three"><img src="./imgs/assets/jhfghfsgr3x.png" alt="5"></li>
+		    	<li class="four"><img src="./imgs/assets/hfdghsgts3x.png" alt="5"></li>
+		    	<li class="five"><img src="./imgs/assets/qdfshtda3x.png" alt="5"></li>
+		    	<li class="six"></li>
 		    </ul>
 		</div>
 		<div class="four"></div>
@@ -282,7 +321,7 @@
 					Luyoona@163.com<br>
 					13671997420
 				</p>
-				<ul class="clearfix">
+				<ul class="clearfix hidden">
 					<li>1</li>
 					<li>2</li>
 					<li>3</li>
@@ -295,6 +334,11 @@
 					<li>1</li>
 					<li>2</li>
 					<li>3</li>
+					<li>3</li>
+				</ul>
+				<ul class="clearfix show">
+					<li>1</li>
+					<li>2</li>
 					<li>3</li>
 				</ul>
 			</li>
@@ -319,6 +363,39 @@
 	</div>
 	<div class="fixContent"><a href="#TOP" style="color: #000;"><h1>TOP</h1></a></div>
 </div>
+	<div class="fixMenu">
+		<ul class="clear">
+			<li>
+				<!-- <img src="./imgs/icon/home.png" class="common"> -->
+				<img src="./imgs/icon/home.png" data-active="home1.png" data-common="home.png">
+				<span>首页</span>
+			</li>
+			<li>
+				<!-- <img src="./imgs/icon/cart.png" class="common">
+				<img src="./imgs/icon/cart1.png" class="active"> -->
+				<img src="./imgs/icon/cart.png" data-active="cart1.png" data-common="cart.png">
+				<span>购物车</span>
+			</li>
+			<li>
+				<!-- <img src="./imgs/icon/history.png" class="common">
+				<img src="./imgs/icon/history1.png" class="active"> -->
+				<img src="./imgs/icon/history.png" data-active="history1.png" data-common="history.png">
+				<span>历史</span>
+			</li>
+			<li>
+				<!-- <img src="./imgs/icon/huiyuan.png" class="common">
+				<img src="./imgs/icon/huiyuan1.png" class="active"> -->
+				<img src="./imgs/icon/huiyuan.png" data-active="huiyuan1.png" data-common="huiyuan.png">
+				<span>会员中心</span>
+			</li>
+			<li>
+				<!-- <img src="./imgs/icon/ellipsis.png" class="common">
+				<img src="./imgs/icon/ellipsis1.png" class="active"> -->
+				<img src="./imgs/icon/ellipsis.png" data-active="ellipsis1.png" data-common="ellipsis.png">
+				<span>更多</span>
+			</li>
+		</ul>
+	</div>
 	<script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>
