@@ -59,7 +59,7 @@ a{
     }
     .rightFunctionalArea{
         float: right;
-        width: 16.7%;
+        width: 25.7%;
         height: 5.06rem;
         line-height: 5.06rem;
     }
@@ -97,7 +97,7 @@ a{
     }
     .menu{
         width: 86.88rem;
-        height: 43px;
+        height: 50px;
         background-color: #FDA9C0;
     }
     .menu2{
@@ -178,14 +178,14 @@ a{
         height: 23.75rem;        
     }
     .firstContent .one{
-        background-color: #FEE7E9;
+        background-color: #E0EDF6;
         margin-right: 1.6%;
     }
     .firstContent .two{
         width: 21.88rem;
         height: 23.75rem;        
         margin-right: 1.1%;
-        background-image: url(../imgs/assets/copy3x.png);
+        background-image: url(../imgs/assets/20c44869f6f57b5401435ea301459ea.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -195,7 +195,7 @@ a{
         margin: 0 auto;
     }
     .firstContent .four{
-        background-color: #F3E5C9;
+        background-color: #C6DDEC;
     }
 
     .firstContent .three img{
@@ -224,7 +224,7 @@ a{
     }
     .secondContent{
         width: 86.88rem;
-        height: 25.63rem;
+        height: 20.63rem;
         margin-top: 1.1%;
     }
     .secondContent div{
@@ -232,26 +232,23 @@ a{
     }
     .secondContent .one,.secondContent .four{
         width:9.81rem;
-        height: 25.63rem;        
+        height: 18.88rem;        
     }
     .secondContent .one{
-        background-color: #FEE7E9;
+        background-color: #D0E7FC;
         margin-right: 1.6%;
-        background-image: url(../imgs/assets/secondcopy3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
     }
     .secondContent .two{
-        width: 26.5rem;
-        height: 25.63rem;        
+        width: 31.25rem;
+        height: 18.88rem;        
         margin-right: 1.1%;
-        background-image: url(../imgs/assets/viennoiseries3x.png);
+        background-image: url(../imgs/assets/d8f16d986af870e3fe64bf2bf183d8e.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
     .secondContent .three{
-        width:25.63rem;
-        height: 25.63rem; 
+        width:32.13rem;
+        height: 18.88rem; 
         margin-right: 1.5%;
     }
     .secondContent .three .item{
@@ -259,37 +256,54 @@ a{
         height: 12rem;
     }
     .secondContent .three .item1{
-        background-image: url(../imgs/assets/item3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+        width: 31.25rem;
+        height: 10.94rem;
+        line-height: 10.94rem;
+        text-align: center;
+        color: #8d888b;
+        background-color: #f8e9f3;  
+        /*font-family: 'qxxin';      */
         margin-right: 1.4rem;
     }
     .secondContent .three .item2{
-        background-image: url(../imgs/assets/MACARONE3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .secondContent .three .item3{
-        background-image: url(../imgs/assets/PATISSERIES3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-right: 1.4rem;
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        background-color: #cdddf2;
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px;
         margin-top: 1.38rem;
     }
+    .secondContent .three .item3{
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        background-color: #c8e5cc; 
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px;
+        font-family: 'qxxin';
+        margin: 1.38rem 0.7rem auto;
+    }
     .secondContent .three .item4{
-        background-image: url(../imgs/assets/mianbao3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        font-family: 'qxxin';
+        background-color: #f1edbd;
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px; 
         margin-top: 1.38rem;
     }
     .secondContent .four{
-        background-color: #FDFBE1;
+        background-color: #F9F9E1;
     }
-    .secondContent .five{
-        width:9.81rem;
-        height: 25.63rem;
-        margin-right: 1.5%; 
-    }
+
     .top{
         width: 9.75rem;
         height: 9.75rem;
@@ -310,39 +324,103 @@ a{
     .threeContent div{
         float: left;
     }
-    .threeContent div:first-child,.threeContent div:last-child{
+    .threeContent div.one,.threeContent div.four{
         width:9.81rem;
         height: 20.94rem;        
     }
     .threeContent .one{
-        background-color: #FFE7EA;
+        background-color: #FCF0C0;
         margin-right: 1.6%;
     }
     .threeContent .two{
-        width: 47.06rem;
-        height: 20.94rem; 
-        background-image: url(../imgs/assets/910e45b01453a39e185c1fe5f3086377.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+        width: 64.19rem;
+        height: 20.94rem;
+        margin-right: 1.6%;
     }
-    .threeContent .three{
-        width:17.38rem;
-        height: 20.94rem;        
+    .threeContent .two ul.threeTitle {
+        width: 64.19rem;
+        height: 1.38rem;
+    }
+    .threeContent .two ul.threeTitle  li{
+        float: left;
+    }
+    .threeContent .two ul.threeTitle  li.one,.threeContent .two ul.threeTitle  li.three{        
+        width: 11.44rem;
+        height: 0.06rem;
+        margin-top: 0.6rem;
+        background: #F0F0F0;
+        border: 1px solid #979797;
+    }
+    .threeContent .two ul.threeTitle  li.two{
+        width:4rem;
+        height: 1.38rem;
+        line-height: 1.38rem;
+        text-align: center;
+    }
+    .threeContent .two ul.threeTitle  li.xiushi{
+        height: 1.38rem;
+        line-height: 1.38rem;
+    }
+    .threeContent .two ul.threeTitle  li.xiushi span.gray{
+        display: inline-block;
+        font-size: 10px;
+        color:  #979797;
+    }
+    .threeContent .two ul.threeTitle  li.xiushi span:first-child,.threeContent .two ul.threeTitle  li.xiushi span:last-child{
+        font-size: 18px;
+        color: #222222;
+    }
+    .threeContent .two ul.content{
+        width: 64.19rem;
+        height: 19rem;
         margin: 0 auto;
-        margin-right: 1.5%;
-        background-image: url(../imgs/assets/miaoshu.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+    }
+    .threeContent .two ul.content li{
+        float: left;
+        width: 17.13rem;
+        height: 17.75rem;
+        text-align: center;
+    }
+    .threeContent div.two ul.content li:first-child{
+        margin-left: 7rem;
+    }
+    .threeContent div.two ul.content li.two{
+        width: 13rem;
+        margin-right: 0px;
+    }
+    .threeContent div.two ul.content li.two h3{
+        font-size: 28px;
+        color: #818181;
+        margin-top: 5rem;
+    }
+    .threeContent div.two ul.content li.two small{
+        font-size: 13px;
+        color: #A6A6A6;
+        margin-top: 0.1%;
+    }
+    .threeContent div.two ul.content li.two p{
+        opacity: 0.82;
+        font-family: PingFangSC-Regular;
+        font-size: 8px;
+        color: #000000;
+        margin-top: 2.6%;
+    }
+    .threeContent div.two ul.content li.two p.new{
+        margin-top: 2rem;
+    }
+    .threeContent div.two ul.content li:first-child img,.threeContent div.two ul.content li:last-child img{
+        width: 9.06rem;
+        height: 9.63rem;
+        margin-top: 4rem;
     }
     .threeContent .four{
-        background-color: #ECE6E6;
-    }
+        background-color: #D4E4EE;
+    } 
 
 
     .fourContent{
         width: 86.88rem;
-        height: 46.13rem;
-        margin-top: 1.7%;
+        height: 50.13rem;
         display: block;
     }
     .fourContentOfMobile{
@@ -353,10 +431,10 @@ a{
     }
     .fourContent div:first-child,.fourContent div:last-child{
         width:9.81rem;
-        height: 46.13rem;        
+        height: 50.13rem;        
     }
     .fourContent .left{
-        background-color: #FFE7EA;
+        background-color: #FCF0C0;
         margin-right: 1.7%;
     }
     .fourContent .center{
@@ -365,7 +443,7 @@ a{
         margin-right: 1.7%;
     }
     .fourContent .right{
-        background-color: #FFDD99;
+        background-color: #D4E4EE;
     }
     .fourContent .center .menuHead{
         width: 64.19rem;
@@ -457,6 +535,93 @@ a{
         padding-left: 8px;
         vertical-align: bottom;
      }
+     .fourContent .center #cards .page{
+        width: 95%;
+        height: 3rem;
+        text-align: right;
+        opacity: 0.82;
+        font-family: PingFangSC-Regular;
+        font-size: 16px;
+        color: #000000;
+     }
+     .fourContent .center #cards div.page div{
+        width: 10rem;
+        height: 3rem;
+        line-height: 3rem;  
+        float: right;
+     }
+     .fourContent .center #cards div.page div.pageNum span{
+        display: inline-block;
+        width: 1.31rem;
+        height: 1.31rem;
+        line-height: 1.31rem;
+        color: #000;
+        background-color: #fff;    
+        border:1px solid #000;    
+        border-radius: 16px;
+        text-align: center;
+     }
+    .fourContent .center #cards div.page div.pageNum span:first-child{
+        display: inline-block;
+        width: 1.31rem;
+        height: 1.31rem;
+        line-height: 1.31rem;        
+        color: #fff;
+        background-color: #000;
+        border:1px solid #000; 
+        border-radius: 16px;
+        text-align: center;
+     }
+     .server{
+        width:64.19rem;
+        height: 35rem;
+        margin:0 auto;
+        border:1px solid red;
+        background-image: url(../imgs/assets/jhfghfsgr3x.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
+     .server .serverTitle{
+        margin:4rem auto 0;
+        width: 14.88rem;
+        height: 4rem;
+        padding-top: 1.5rem;
+        border:2px solid #fff;
+        color: #fff;
+        text-align: center;
+     }
+     .server h3{
+        color: #fff;
+        text-align: center;
+        height: 3rem;
+        line-height: 3rem;
+     }
+     .server .serverContent{
+            margin: 2rem auto 0;
+        width: 45rem;
+        height: 17.24rem;
+     }
+     .server .serverContent ul li{
+        float: left;
+        width:12rem;
+        height:16rem;
+        border:2px solid #000;
+        margin:0 1.2rem;
+        background:#fff;
+     }
+     .server .serverContent ul li div{
+        width: 100%;
+        height: 3rem;
+        line-height: 3rem;
+        padding-left: 10px;
+     }
+     .server .serverContent ul li img{
+        width: 100%;
+        height: 100%
+        width: 100%;
+        height: 13rem;
+     }
+
 
 
 
@@ -478,11 +643,14 @@ a{
     }
     .fiveContent .two{
         width: 23.69rem;
-        height: 25.38rem;        
+        height: 25.38rem; 
+        line-height: 25.38rem;        
         margin-right: 1.1%;
-        background-image: url(../imgs/assets/Rectangle@3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+        background: #9dc9ef;
+        text-align: center;
+        font-family: 'qxxin';
+        font-size: 50px;
+        color: #fff;
     }
     .fiveContent .three{
         width:41rem;
@@ -495,6 +663,16 @@ a{
         height: 12rem;
         margin-right: 1.6%;
         margin-top: 1.2%;
+    }
+    .fiveContent .three ul li.twothree{
+        width: 25rem;
+        height: 12rem;
+        line-height: 12rem;
+        text-align: center;
+        color: #fff;
+        font-size: 35px;
+        font-family: 'qxxin';
+        background: #f8e9f3;
     }
     .fiveContent .three ul li img{
         width: 100%;
@@ -648,6 +826,9 @@ a{
         display: block;
     }
     .show{
+        display: block;
+    }
+    .mobileShow{
         display: none;
     }
     .fixContent{
@@ -833,14 +1014,14 @@ a{
         height: 23.75rem;        
     }
     .firstContent .one{
-        background-color: #FEE7E9;
+        background-color: #E0EDF6;
         margin-right: 1.6%;
     }
     .firstContent .two{
         width: 21.88rem;
         height: 18.08rem;        
         margin-right: 1.1%;
-        background-image: url(../imgs/assets/copy3x.png);
+        background-image: url(../imgs/assets/20c44869f6f57b5401435ea301459ea.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -850,7 +1031,7 @@ a{
         margin: 0 auto;
     }
     .firstContent .four{
-        background-color: #F3E5C9;
+        background-color: #C6DDEC;
     }
 
     .firstContent .three img{
@@ -912,23 +1093,20 @@ a{
         height: 25.63rem;        
     }
     .secondContent .one{
-        background-color: #FEE7E9;
+        background-color: #D0E7FC;
         margin-right: 1.6%;
-        background-image: url(../imgs/assets/secondcopy3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
     }
     .secondContent .two{
-        width: 26.5rem;
-        height: 25.63rem;        
+        width: 31.25rem;
+        height: 18.88rem;        
         margin-right: 1.1%;
-        background-image: url(../imgs/assets/viennoiseries3x.png);
+        background-image: url(../imgs/assets/d8f16d986af870e3fe64bf2bf183d8e.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
     .secondContent .three{
-        width:25.63rem;
-        height: 25.63rem; 
+        width:32.13rem;
+        height: 18.88rem; 
         margin-right: 1.5%;
     }
     .secondContent .three .item{
@@ -936,31 +1114,158 @@ a{
         height: 12rem;
     }
     .secondContent .three .item1{
-        background-image: url(../imgs/assets/item3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+        width: 31.25rem;
+        height: 10.94rem;
+        line-height: 10.94rem;
+        text-align: center;
+        color: #8d888b;
+        background-color: #f8e9f3;  
+        /*font-family: 'qxxin';      */
         margin-right: 1.4rem;
     }
     .secondContent .three .item2{
-        background-image: url(../imgs/assets/MACARONE3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .secondContent .three .item3{
-        background-image: url(../imgs/assets/PATISSERIES3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-right: 1.4rem;
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        background-color: #cdddf2;
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px;
         margin-top: 1.38rem;
     }
+    .secondContent .three .item3{
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        background-color: #c8e5cc; 
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px;
+        font-family: 'qxxin';
+        margin: 1.38rem 0.7rem auto;
+    }
     .secondContent .three .item4{
-        background-image: url(../imgs/assets/mianbao3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        font-family: 'qxxin';
+        background-color: #f1edbd;
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px; 
+        margin-top: 1.38rem;
+    }.secondContent .three{
+        width:32.13rem;
+        height: 18.88rem; 
+        margin-right: 1.5%;
+    }
+    .secondContent .three .item{
+        width: 12rem;
+        height: 12rem;
+    }
+    .secondContent .three .item1{
+        width: 31.25rem;
+        height: 10.94rem;
+        line-height: 10.94rem;
+        text-align: center;
+        color: #8d888b;
+        background-color: #f8e9f3;  
+        /*font-family: 'qxxin';      */
+        margin-right: 1.4rem;
+    }
+    .secondContent .three .item2{
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        background-color: #cdddf2;
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px;
+        margin-top: 1.38rem;
+    }
+    .secondContent .three .item3{
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        background-color: #c8e5cc; 
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px;
+        font-family: 'qxxin';
+        margin: 1.38rem 0.7rem auto;
+    }
+    .secondContent .three .item4{
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        font-family: 'qxxin';
+        background-color: #f1edbd;
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px; 
+        margin-top: 1.38rem;
+    }.secondContent .three{
+        width:32.13rem;
+        height: 18.88rem; 
+        margin-right: 1.5%;
+    }
+    .secondContent .three .item{
+        width: 12rem;
+        height: 12rem;
+    }
+    .secondContent .three .item1{
+        width: 31.25rem;
+        height: 10.94rem;
+        line-height: 10.94rem;
+        text-align: center;
+        color: #8d888b;
+        background-color: #f8e9f3;  
+        /*font-family: 'qxxin';      */
+        margin-right: 1.4rem;
+    }
+    .secondContent .three .item2{
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        background-color: #cdddf2;
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px;
+        margin-top: 1.38rem;
+    }
+    .secondContent .three .item3{
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        background-color: #c8e5cc; 
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px;
+        font-family: 'qxxin';
+        margin: 1.38rem 0.7rem auto;
+    }
+    .secondContent .three .item4{
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        font-family: 'qxxin';
+        background-color: #f1edbd;
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px; 
         margin-top: 1.38rem;
     }
     .secondContent .four{
-        background-color: #FDFBE1;
+        background-color: #F9F9E1;
     }
     .secondContent .five{
         width:9.81rem;
@@ -979,7 +1284,7 @@ a{
     }
 
 
-    .threeContent{
+        .threeContent{
         width: 86.88rem;
         height: 20.94rem;
         margin-top: 1.7%;
@@ -987,39 +1292,103 @@ a{
     .threeContent div{
         float: left;
     }
-    .threeContent div:first-child,.threeContent div:last-child{
+    .threeContent div.one,.threeContent div.four{
         width:9.81rem;
         height: 20.94rem;        
     }
     .threeContent .one{
-        background-color: #FFE7EA;
+        background-color: #FCF0C0;
         margin-right: 1.6%;
     }
     .threeContent .two{
-        width: 47.06rem;
-        height: 20.94rem; 
-        background-image: url(../imgs/assets/910e45b01453a39e185c1fe5f3086377.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+        width: 64.19rem;
+        height: 20.94rem;
+        margin-right: 1.6%;
     }
-    .threeContent .three{
-        width:17.38rem;
-        height: 20.94rem;        
+    .threeContent .two ul.threeTitle {
+        width: 64.19rem;
+        height: 1.38rem;
+    }
+    .threeContent .two ul.threeTitle  li{
+        float: left;
+    }
+    .threeContent .two ul.threeTitle  li.one,.threeContent .two ul.threeTitle  li.three{        
+        width: 9.44rem;
+        height: 0.06rem;
+        margin-top: 0.6rem;
+        background: #F0F0F0;
+        border: 1px solid #979797;
+    }
+    .threeContent .two ul.threeTitle  li.two{
+        width:7rem;
+        height: 1.38rem;
+        line-height: 1.38rem;
+        text-align: center;
+    }
+    .threeContent .two ul.threeTitle  li.xiushi{
+        height: 1.38rem;
+        line-height: 1.38rem;
+    }
+    .threeContent .two ul.threeTitle  li.xiushi span.gray{
+        display: inline-block;
+        font-size: 10px;
+        color:  #979797;
+    }
+    .threeContent .two ul.threeTitle  li.xiushi span:first-child,.threeContent .two ul.threeTitle  li.xiushi span:last-child{
+        font-size: 18px;
+        color: #222222;
+    }
+    .threeContent .two ul.content{
+        width: 64.19rem;
+        height: 19rem;
         margin: 0 auto;
-        margin-right: 1.5%;
-        background-image: url(../imgs/assets/miaoshu.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+    }
+    .threeContent .two ul.content li{
+        float: left;
+        width: 17.13rem;
+        height: 17.75rem;
+        text-align: center;
+    }
+    .threeContent div.two ul.content li:first-child{
+        margin-left: 7rem;
+    }
+    .threeContent div.two ul.content li.two{
+        width: 13rem;
+        margin-right: 0px;
+    }
+    .threeContent div.two ul.content li.two h3{
+        font-size: 19px;
+        color: #818181;
+        margin-top: 5rem;
+    }
+    .threeContent div.two ul.content li.two small{
+        font-size: 13px;
+        color: #A6A6A6;
+        margin-top: 0.1%;
+    }
+    .threeContent div.two ul.content li.two p{
+        opacity: 0.82;
+        font-family: PingFangSC-Regular;
+        font-size: 8px;
+        color: #000000;
+        margin-top: 2.6%;
+    }
+    .threeContent div.two ul.content li.two p.new{
+        margin-top: 2rem;
+    }
+    .threeContent div.two ul.content li:first-child img,.threeContent div.two ul.content li:last-child img{
+        width: 9.06rem;
+        height: 9.63rem;
+        margin-top: 4rem;
     }
     .threeContent .four{
-        background-color: #ECE6E6;
-    }
+        background-color: #D4E4EE;
+    } 
 
 
     .fourContent{
         width: 86.88rem;
-        height: 49.13rem;
-        margin-top: 1.7%;
+        height: 55.13rem;
         display: block;
     }
     .fourContentOfMobile{
@@ -1030,10 +1399,10 @@ a{
     }
     .fourContent div:first-child,.fourContent div:last-child{
         width:9.81rem;
-        height: 49.13rem;        
+        height: 55.13rem;        
     }
     .fourContent .left{
-        background-color: #FFE7EA;
+        background-color: #FCF0C0;
         margin-right: 1.7%;
     }
     .fourContent .center{
@@ -1042,7 +1411,7 @@ a{
         margin-right: 1.7%;
     }
     .fourContent .right{
-        background-color: #FFDD99;
+        background-color: #D4E4EE;
     }
     .fourContent .center .menuHead{
         width: 64.19rem;
@@ -1134,6 +1503,92 @@ a{
         color: #000000;
         padding-left: 8px;
         vertical-align: bottom;
+    }
+    .fourContent .center #cards .page{
+        width: 95%;
+        height: 3rem;
+        text-align: right;
+        opacity: 0.82;
+        font-family: PingFangSC-Regular;
+        font-size: 16px;
+        color: #000000;
+    }
+    .fourContent .center #cards div.page div{
+        width: 12rem;
+        height: 3rem;
+        line-height: 3rem;  
+        float: right;
+     }
+     .fourContent .center #cards div.page div.pageNum span{
+        display: inline-block;
+        width: 1.31rem;
+        height: 1.31rem;
+        line-height: 1.31rem;
+        color: #000;
+        background-color: #fff;    
+        border:1px solid #000;    
+        border-radius: 16px;
+        text-align: center;
+    }
+    .fourContent .center #cards div.page div.pageNum span:first-child{
+        display: inline-block;
+        width: 1.31rem;
+        height: 1.31rem;
+        line-height: 1.31rem;        
+        color: #fff;
+        background-color: #000;
+        border:1px solid #000; 
+        border-radius: 16px;
+        text-align: center;
+    }
+    .server{
+        width:64.19rem;
+        height: 35rem;
+        margin:0 auto;
+        border:1px solid red;
+        background-image: url(../imgs/assets/jhfghfsgr3x.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .server .serverTitle{
+        margin:4rem auto 0;
+        width: 14.88rem;
+        height: 4rem;
+        padding-top: 1.5rem;
+        border:2px solid #fff;
+        color: #fff;
+        text-align: center;
+    }
+    .server h3{
+        color: #fff;
+        text-align: center;
+        height: 3rem;
+        line-height: 3rem;
+    }
+    .server .serverContent{
+            margin: 2rem auto 0;
+        width: 45rem;
+        height: 17.24rem;
+    }
+    .server .serverContent ul li{
+        float: left;
+        width:12rem;
+        height:16rem;
+        border:2px solid #000;
+        margin:0 1.2rem;
+        background:#fff;
+    }
+    .server .serverContent ul li div{
+        width: 100%;
+        height: 3rem;
+        line-height: 3rem;
+        padding-left: 10px;
+     }
+     .server .serverContent ul li img{
+        width: 100%;
+        height: 100%
+        width: 100%;
+        height: 13rem;
      }
 
 
@@ -1154,13 +1609,16 @@ a{
         background-color: #FDFBE1;
         margin-right: 1.6%;
     }
-    .fiveContent .two{
+    .fiveContent div.two{
         width: 23.69rem;
-        height: 25.38rem;        
+        height: 25.38rem;
+        line-height: 25.38rem;        
         margin-right: 1.1%;
-        background-image: url(../imgs/assets/Rectangle@3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+        background:#9dc9ef;
+        text-align: center;
+        font-family: 'qxxin';
+        font-size: 35px;
+        color: #fff;
     }
     .fiveContent .three{
         width:41rem;
@@ -1173,6 +1631,16 @@ a{
         height: 12rem;
         margin-right: 1.6%;
         margin-top: 1.2%;
+    }
+    .fiveContent .three ul li.twothree{
+        width: 25rem;
+        height: 12rem;
+        line-height: 12rem;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'qxxin';
+        background: #f8e9f3;
     }
     .fiveContent .three ul li img{
         width: 100%;
@@ -1326,6 +1794,9 @@ a{
         display: block;
     }
     .show{
+        display: block;
+    }
+    .mobileShow{
         display: none;
     }
     .fixContent{
@@ -1517,7 +1988,7 @@ a{
     }
     .firstContent{
         width: 86.88rem;
-        height: 44.75rem;
+        height: 28.75rem;
         margin-top: 0.6%;
     }
     .firstContent div{
@@ -1525,29 +1996,32 @@ a{
     }
     .firstContent div.one,.firstContent div.four{
         width:9.75rem;
-        height: 23.75rem;  
+        height: 23.75rem;   
         display: none;     
     }
     .firstContent .one{
-        background-color: #FEE7E9;
+        background-color: #E0EDF6;
         margin-right: 1.6%;
     }
     .firstContent .two{
         width: 21.88rem;
         height: 18.08rem;        
         margin-right: 1.1%;
-        background-image: url(../imgs/assets/copy3x.png);
+        background-image: url(../imgs/assets/20c44869f6f57b5401435ea301459ea.png);
         background-size: cover;
         background-repeat: no-repeat;
-        display: none;
+        border-radius: 15px;
+        overflow: hidden;
     }
     .firstContent .three{
-        width: 82.63rem;
-        height: 35.75rem;
-        margin: 0 auto auto 2rem;
+        width: 62.63rem;
+        height: 18.08rem;        
+        margin: 0 auto;
+        border-radius: 15px;
+        overflow: hidden;
     }
     .firstContent .four{
-        background-color: #F3E5C9;
+        background-color: #C6DDEC;
     }
 
     .firstContent .three img{
@@ -1571,22 +2045,23 @@ a{
         display: none;
     }
     .pContent{
-        width: 86.88rem;
+        width: 87rem;
     }
     .pContent .menu2 .menuA{
         display: none;
     }
     .pContent .menu2 .menuSearch input{
-        width: 54.08rem;
-        height: 5.5rem;
+        width: 55.08rem;
+        height: 4.5rem;
+        line-height: 4.5rem;
         border: 1px solid #FC8995;
         border-radius: 8.91px 0px 0px 8.91px;
     }
     .pContent .menu2 .menuSearch  .btn{
         display: inline-block;
-        width: 7.36rem;
-        height: 5.8rem;
-        line-height: 5.5rem;
+        width: 6.36rem;
+        height: 4.8rem;
+        line-height: 4.5rem;
         background: #FC8995;
         border: 0 solid #FC8995;
         box-shadow: 0 5px 8px 0 rgba(0,0,0,0.05);
@@ -1594,12 +2069,11 @@ a{
         color: #fff;
         vertical-align: middle;
         text-align: center;
-        margin-bottom: 3.5px;
     }
     .secondContent{
         width: 86.88rem;
         height: 25.63rem;
-        margin: 1.1%;
+        margin-top: 1.1%;
     }
     .secondContent div{
         float: left;
@@ -1610,72 +2084,180 @@ a{
         display: none;   
     }
     .secondContent .one{
-        background-color: #FEE7E9;
+        background-color: #D0E7FC;
         margin-right: 1.6%;
-        background-image: url(../imgs/assets/secondcopy3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
     }
     .secondContent .two{
-        width: 26.5rem;
-        height: 25.63rem;        
+        width: 42.25rem;
+        height: 18.88rem;        
         margin-right: 1.1%;
-        background-image: url(../imgs/assets/viennoiseries3x.png);
+        background-image: url(../imgs/assets/d8f16d986af870e3fe64bf2bf183d8e.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
     .secondContent .three{
-        width: 47.63rem;
-        height: 25.63rem;
+        width:32.13rem;
+        height: 18.88rem; 
+        margin-right: 1.5%;
     }
     .secondContent .three .item{
         width: 12rem;
         height: 12rem;
     }
     .secondContent .three .item1{
-        background-image: url(../imgs/assets/item3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+        width: 31.25rem;
+        height: 10.94rem;
+        line-height: 10.94rem;
+        text-align: center;
+        color: #8d888b;
+        background-color: #f8e9f3;  
+        /*font-family: 'qxxin';      */
         margin-right: 1.4rem;
     }
     .secondContent .three .item2{
-        background-image: url(../imgs/assets/MACARONE3x.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        margin-right: 0.4rem;
-        width: 20rem;
-        height: 12rem;
-    }
-    .secondContent .three .item3{
-        background-image: url(../imgs/assets/PATISSERIES3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-right: 1.4rem; 
-        margin-top: 1.38rem;      
-    }
-    .secondContent .three .item4{
-        background-image: url(../imgs/assets/feeafagrthgf3x.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        margin-right: 0.4rem;
-        width: 20rem;
-        height: 12rem;
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        background-color: #cdddf2;
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px;
         margin-top: 1.38rem;
     }
-    .secondContent .three .item5{
-        background-color: #FDFBE1;
-        background-size: cover;
-        background-repeat: no-repeat;
+    .secondContent .three .item3{
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        background-color: #c8e5cc; 
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px;
+        font-family: 'qxxin';
+        margin: 1.38rem 0.7rem auto;
+    }
+    .secondContent .three .item4{
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        font-family: 'qxxin';
+        background-color: #f1edbd;
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px; 
+        margin-top: 1.38rem;
+    }.secondContent .three{
+        width:32.13rem;
+        height: 18.88rem; 
+        margin-right: 1.5%;
+    }
+    .secondContent .three .item{
+        width: 12rem;
+        height: 12rem;
+    }
+    .secondContent .three .item1{
+        width: 31.25rem;
+        height: 10.94rem;
+        line-height: 10.94rem;
+        text-align: center;
+        color: #8d888b;
+        background-color: #f8e9f3;  
+        /*font-family: 'qxxin';      */
         margin-right: 1.4rem;
     }
-    .secondContent .three .item6{
-        background-image: url(../imgs/assets/mianbao3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+    .secondContent .three .item2{
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        background-color: #cdddf2;
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px;
+        margin-top: 1.38rem;
+    }
+    .secondContent .three .item3{
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        background-color: #c8e5cc; 
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px;
+        font-family: 'qxxin';
+        margin: 1.38rem 0.7rem auto;
+    }
+    .secondContent .three .item4{
+        width: 9.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        font-family: 'qxxin';
+        background-color: #f1edbd;
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 25px; 
+        margin-top: 1.38rem;
+    }
+    .secondContent .three{
+        width:40.13rem;
+        height: 18.88rem; 
+        margin-right: 1.5%;
+    }
+    .secondContent .three .item{
+        width: 12rem;
+        height: 12rem;
+    }
+    .secondContent .three .item1{
+        width: 40.25rem;
+        height: 10.94rem;
+        line-height: 10.94rem;
+        text-align: center;
+        color: #8d888b;
+        background-color: #f8e9f3;  
+        /*font-family: 'qxxin';      */
+        margin-right: 1.4rem;
+    }
+    .secondContent .three .item2{
+        width: 12.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        background-color: #cdddf2;
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 16px;
+        margin-top: 1.38rem;
+    }
+    .secondContent .three .item3{
+        width: 12.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        background-color: #c8e5cc; 
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 16px;
+        font-family: 'qxxin';
+        margin: 1.38rem 0.7rem auto;
+    }
+    .secondContent .three .item4{
+        width: 12.88rem;
+        height: 7rem;
+        line-height: 7rem;
+        text-align: center;
+        font-family: 'qxxin';
+        background-color: #f1edbd;
+        color: gray; 
+        font-family: 'qxxin'; 
+        font-size: 16px; 
         margin-top: 1.38rem;
     }
     .secondContent .four{
-        background-color: #FDFBE1;
+        background-color: #F9F9E1;
     }
     .secondContent .five{
         width:9.81rem;
@@ -1696,50 +2278,116 @@ a{
 
     .threeContent{
         width: 86.88rem;
-        height: 20.94rem;
-        margin: 1.7% 1.1%;
+        height: 29.94rem;
+        margin-top: 1.7%;
     }
     .threeContent div{
         float: left;
     }
-    .threeContent div:first-child,.threeContent div:last-child{
+    .threeContent div.one,.threeContent div.four{
         width:9.81rem;
-        height: 20.94rem;   
-        display: none;     
+        height: 20.94rem;  
+        display: none;      
     }
     .threeContent .one{
-        background-color: #FFE7EA;
+        background-color: #FCF0C0;
         margin-right: 1.6%;
     }
     .threeContent .two{
-        width: 54rem;
-        height: 20.94rem; 
-        background-image: url(../imgs/assets/910e45b01453a39e185c1fe5f3086377.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-right: 1.1%;
-        border-radius: 5px;
+        width: 86.88rem;
+        height: 20.94rem;
+        margin-right: 1.6%;
     }
-    .threeContent .three{
-        width:30rem;
-        height: 20.94rem;        
+    .threeContent .two ul.threeTitle {
+        width: 86.88rem;
+        height: 1.38rem;
+    }
+    .threeContent .two ul.threeTitle  li{
+        float: left;
+    }
+    .threeContent .two ul.threeTitle  li.one,.threeContent .two ul.threeTitle  li.three{        
+        width: 9.44rem;
+        height: 0.06rem;
+        margin-top: 0.6rem;
+        background: #F0F0F0;
+        border: 1px solid #979797;
+    }
+    .threeContent .two ul.threeTitle  li.two{
+        width:16rem;
+        height: 1.38rem;
+        line-height: 1.38rem;
+        text-align: center;
+    }
+    .threeContent .two ul.threeTitle  li.xiushi{
+        height: 1.38rem;
+        line-height: 1.38rem;
+    }
+    .threeContent .two ul.threeTitle  li.xiushi span.gray{
+        display: inline-block;
+        font-size: 10px;
+        color:  #979797;
+    }
+    .threeContent .two ul.threeTitle  li.xiushi span:first-child,.threeContent .two ul.threeTitle  li.xiushi span:last-child{
+        font-size: 18px;
+        color: #222222;
+    }
+    .threeContent .two ul.content{
+        width: 88.19rem;
+        height: 19rem;
         margin: 0 auto;
-        margin-right: 1.5%;
-        background-image: url(../imgs/assets/history.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 5px;
-        background-position-y: -40px;
+    }
+    .threeContent .two ul.content li{
+        float: left;
+        width: 20.13rem;
+        height: 20.75rem;
+        text-align: center;
+        margin-top: 6rem;
+    }
+    .threeContent div.two ul.content li:first-child{
+        margin-left: 7rem;
+        margin-top: 6rem;
+    }
+    .threeContent div.two ul.content li.two{
+        width: 30rem;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .threeContent div.two ul.content li.two h3{
+        font-size: 19px;
+        color: #818181;
+        margin-top: 5rem;
+    }
+    .threeContent div.two ul.content li.two small{
+        font-size: 13px;
+        color: #A6A6A6;
+        margin-top: 0.1%;
+    }
+    .threeContent div.two ul.content li.two p{
+        opacity: 0.82;
+        font-family: PingFangSC-Regular;
+        font-size: 8px;
+        color: #000000;
+        margin-top: 2.6%;
+    }
+    .threeContent div.two ul.content li.two p.new{
+        margin-top: 2rem;
+    }
+    .threeContent div.two ul.content li:first-child img,.threeContent div.two ul.content li:last-child img{
+        width: 10.06rem;
+        height: 10.63rem;
+        margin-top: 4rem;
     }
     .threeContent .four{
-        background-color: #ECE6E6;
-    }
+        background-color: #D4E4EE;
+    } 
 
 
     .fourContent{
         width: 86.88rem;
-        height: 49.13rem;
-        margin-top: 1.7%;
+        height: 68.13rem;
+        display: block;
+    }
+    .fourContentOfMobile{
         display: none;
     }
     .fourContent div{
@@ -1747,22 +2395,23 @@ a{
     }
     .fourContent div:first-child,.fourContent div:last-child{
         width:9.81rem;
-        height: 49.13rem;        
+        height: 55.13rem;        
     }
     .fourContent .left{
-        background-color: #FFE7EA;
+        background-color: #FCF0C0;
         margin-right: 1.7%;
+        display: none;
     }
     .fourContent .center{
-        width: 64.19rem;
+        width: 86.88rem;
         height: auto;
-        margin-right: 1.7%;
     }
     .fourContent .right{
-        background-color: #FFDD99;
+        background-color: #D4E4EE;
+        display: none;
     }
     .fourContent .center .menuHead{
-        width: 64.19rem;
+        width: 86rem;
         height: 4.63rem;
         line-height: 4.63rem;
         border-radius: 5px;
@@ -1770,20 +2419,20 @@ a{
     }
     .fourContent .center .menuHead select[name=one]{
         width: 13.13rem;
-        height: 2.5rem; 
+        height: 3.5rem; 
         margin-left: 2.2%;
     }
     .fourContent .center .menuHead select[name=two]{
         width: 9.19rem;
-        height: 2.5rem; 
+        height: 3.5rem; 
         margin-left: 1.5%;
     }
     .fourContent .center .menuHead{
         position: relative;
     }
     .fourContent .center .menuHead .cards{
-        width: 23px;
-        height: 21px;
+        width: 15px;
+        height: 13px;
         position: absolute;
         right: 5.5rem;
         top: 1.09rem;
@@ -1799,13 +2448,13 @@ a{
     }
     .fourContent .center #cards{
         height: 4.63rem;
-        width: 100%;        
+        width: 86.88rem;        
         margin-top: 25px;
     }
     .fourContent .center #cards ul li{
-        width: 14.88rem;
-        height: 20.25rem;
-        margin: 0.4% 1.5% 0.9% 0;
+        width: 18.88rem;
+        height: 25.25rem;
+        margin: 0.4% 1.5% 0.9% 1.5%;
         box-shadow: 0 2px 8px 0 rgba(0,0,0,0.29);
         float: left;
     }
@@ -1815,17 +2464,17 @@ a{
     }
     .fourContent .center #cards ul li div{
         width: 100%;
-        height: 6.4rem;
+        height: 11.4rem;
         text-align: center;        
     }
     .fourContent .center #cards ul li div h4{
         color: #3A3A3A;
-        height: 3.38rem;
-        line-height: 3.38rem;
+        height: 6.38rem;
+        line-height: 6.38rem;
     }
     .fourContent .center #cards ul li div span{
         display: inline-block;
-        width: 10.13rem;
+        width: 14.13rem;
         height: 2.56rem;
         line-height: 2.56rem;
 
@@ -1839,19 +2488,109 @@ a{
         border-right: 1px solid #979797;
     }
     .fourContent .center #cards ul li div span a:first-child img{
-        width: 12px;
+        width: 10px;
         height: 12px;
-        padding-right: 3px;
     }
     .fourContent .center #cards ul li div span a:last-child{
         width: 5.6%;
-        height:25px;
-        line-height:25px;
-        font-size: 10px;
+        height: 14px;
+        line-height: 14px;
+        font-size: 2rem;
         color: #000000;
-        padding-left: 8px;
-        vertical-align: bottom;
+        vertical-align: bottom
     }
+    .fourContent .center #cards .page{
+        width: 95%;
+        height: 3rem;
+        text-align: right;
+        opacity: 0.82;
+        font-family: PingFangSC-Regular;
+        font-size: 16px;
+        color: #000000;
+    }
+    .fourContent .center #cards div.page div{
+        width: 18rem;
+        height: 3rem;
+        line-height: 3rem;
+        float: right;
+        font-size: 12px;
+    }
+    .fourContent .center #cards div.page div input{
+        width: 2.63rem!important;
+        height: 2rem!important;
+    }
+    .fourContent .center #cards div.page div.pageNum span{
+        display: inline-block;
+        width: 2.31rem;
+        height: 2.31rem;
+        line-height: 2.31rem; 
+        color: #000;
+        background-color: #fff;    
+        border:1px solid #000;    
+        border-radius: 16px;
+        text-align: center;
+    }
+    .fourContent .center #cards div.page div.pageNum span:first-child{
+        display: inline-block;
+        width: 2.31rem;
+        height: 2.31rem;
+        line-height: 2.31rem;       
+        color: #fff;
+        background-color: #000;
+        border:1px solid #000; 
+        border-radius: 16px;
+        text-align: center;
+    }
+    .server{
+        width: 70.19rem;
+        height: 39rem;
+        margin:0 auto;
+        border:1px solid red;
+        background-image: url(../imgs/assets/jhfghfsgr3x.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .server .serverTitle{
+        margin: 4rem auto 0;
+        width: 16.88rem;
+        height: 7rem;
+        padding-top: 1.5rem;
+        border: 2px solid #fff;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+    }
+    .server h3{
+        color: #fff;
+        text-align: center;
+        height: 3rem;
+        line-height: 3rem;
+    }
+    .server .serverContent{
+        margin: 2rem auto 0;
+        width: 52rem;
+        height: 21.24rem;
+    }
+    .server .serverContent ul li{
+        float: left;
+        width:14rem;
+        height:16rem;
+        border:2px solid #000;
+        margin:0 1.2rem;
+        background:#fff;
+    }
+    .server .serverContent ul li div{
+        width: 100%;
+        height: 3rem;
+        line-height: 3rem;
+        padding-left: 10px;
+     }
+     .server .serverContent ul li img{
+        width: 100%;
+        height: 100%
+        width: 100%;
+        height: 13rem;
+     }
 
 
 
@@ -1978,11 +2717,14 @@ a{
     }
     .fiveContent .two{
         width: 12rem;
-        height: 12rem;      
+        height: 12rem;
+        line-height: 12rem;      
         margin-right: 1.1%;
-        background-image: url(../imgs/assets/Rectangle@3x.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+        background: #9dc9ef;
+        text-align: center;
+        font-family: 'qxxin';
+        font-size: 20px;
+        color: #fff;
     }
     .fiveContent .three{
         width: 47rem;
@@ -1995,6 +2737,16 @@ a{
         height: 12rem;
         margin-right: 1.6%;
         margin-top: 0.2%;
+    }
+    .fiveContent .three ul li.twothree{
+        width: 25rem;
+        height: 12rem;
+        line-height: 12rem;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'qxxin';
+        background: #f8e9f3;
     }
     .fiveContent .three ul li img{
         width: 100%;
@@ -2148,6 +2900,9 @@ a{
         display: none;
     }
     .show{
+        display: block;
+    }
+    .mobileShow{
         display: block;
     }
     .fixContent{

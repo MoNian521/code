@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>MA  CHÉRIE</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<title>商城</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	
 	<script type="text/javascript" src="./js/jquery-v3.5.1.js"></script>
 	<style type="text/css">
 		@font-face {
 		     font-style:normal;
 		     font-family:'qxxin';
-		     src:url('./fonts/qxxin.ttf') format('truetype');
+		     src:url('../../fonts/qxxin.ttf') format('truetype');
 		 }
 		 body {
 		     font-family:"Microsoft YaHei","qxxin",sans-serif;
 		 }
 	</style>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
 </head>
 <body>
 <div id="TOP" style="height: 0;"></div>
@@ -22,7 +22,7 @@
 	<div class="header">
 		<span class="btn">
 			<img src="./imgs/icon/caidan.png" class="caidan">
-		</span>
+		</span>		
 		<span class="title">MA  CHÉRIE</span>
 		<small class="smallTitle">P A R I S</small>
 		<ul class="rightFunctionalArea">
@@ -32,7 +32,7 @@
 			</li>
 			<li>
 				<img src="./imgs/icon/user.png" class="nickname">&nbsp;
-				<a href="#">登录</a>&nbsp;|&nbsp;<a href="#">注册</a>
+				<a href="#">登录</a>&nbsp;<a href="#">|</a>&nbsp;<a href="#">注册</a>
 			</li>
 			<li>
 				<img src="./imgs/icon/cart2.png" class="cart">&nbsp;
@@ -42,12 +42,14 @@
 	</div>	
 	<div class="menu menu1 menuPc">
 		<div class="menuTitle">
-			<span><i>MA  CHÉRIE</i></span>
-			<small>Online Store</small>
+			<a href="../../index.html">
+				<span><i>MA  CHÉRIE</i></span>
+				<small>Online Store</small>
+			</a>
 		</div>
 		<div class="menuA">
 			<ul>
-				<li><a href="./templates/ShoppingMall/index.html">SHOP 商城</a></li>
+				<li><a href="#">SHOP 商城</a></li>
 				<li><a href="#">HISTORY 历史</a></li>
 				<li><a href="#">MEMBER 会员中心</a></li>
 				<li><a href="#">CONTACT 联系我们</a></li>
@@ -61,7 +63,7 @@
 	<div class="menu menu1 menuPide">
 		<div class="menuA">
 			<ul>
-				<li><a href="./templates/ShoppingMall/index.html">SHOP 商城</a></li>
+				<li><a href="#">SHOP 商城</a></li>
 				<li><a href="#">HISTORY 历史</a></li>
 				<li><a href="#">MEMBER 会员中心</a></li>
 				<li><a href="#">CONTACT 联系我们</a></li>
@@ -106,30 +108,52 @@
 		<div class="four"></div>
 	</div>
 	<div class="secondContent">
-		<div class="one"></div>
-		<div class="five">
-			<div class="top">
-				<img src="./imgs/assets/dangaored3x.png" width="100%" height="100%" alt="1">
-			</div>
-			<div class="down">
-				<img src="./imgs/assets/gifts3x.png" width="100%" height="100%" alt="1">
-			</div>
+		<div class="one"></div>		
+		<div class="three">
+			<div class="item item1"><h2>CONFECTIONERY & GIFT</h2></div>
+			<div class="item item2">Macaroon</div>
+			<div class="item item3">Ehooolates</div>
+			<div class="item item4">Doughnut</div>
 		</div>
 		<div class="two"></div>
-		<div class="three">
-			<div class="item item1"></div>
-			<div class="item item2"></div>
-			<div class="item item5"></div>
-			<div class="item item3"></div>
-			<div class="item item4"></div>
-			<div class="item item6"></div>
-		</div>
 		<div class="four"></div>
 	</div>
 	<div class="threeContent">
 		<div class="one"></div>	
-		<div class="two"></div>
-		<div class="three"></div>	
+		<div class="two">
+			<ul class="threeTitle clear">
+				<li class="one"></li>
+				<li class="two">
+					新品介绍
+				</li>
+				<li class="three"></li>
+				<li class="xiushi">
+					<span><</span>
+					<span class="gray">|</span>
+					<span>></span>
+				</li>
+				<li class="one"></li>
+				<li class="two">
+					人气商品
+				</li>
+				<li class="three"></li>
+			</ul>
+			<ul class="content clear">
+				<li>
+					<img src="./imgs/assets/helena-pg_2400x2400@3x.png">
+				</li>
+				<li class="two">
+					<h3>MA  CHÉRIE</h3>
+					<small>Online Store</small>
+					<p class="new">new</p>
+					<p>&</p>
+					<p>Popular </p>
+				</li>
+				<li>
+					<img src="./imgs/assets/620d055bd4e74f14e8378d4436324fe.png">
+				</li>
+			</ul>
+		</div>	
 		<div class="four"></div>
 	</div>
 	<div class="fourContent">
@@ -246,11 +270,46 @@
 						</div>
 					</li>
 				</ul>
+				<div class="page">					
+					<div>跳转第<input type="text" name="" style="width: 1.63rem;height: 1rem;border-radius: 5px;border: 1px solid #979797;border-radius:8px;">页</div>
+					<div class="pageNum">
+						页数
+						<span>1</span>
+						<span>2</span>
+						<span>3</span>
+						<span>4</span>
+					</div>
+					<div>本页共<span>
+						<input type="text" value="6" style="width: 1.63rem;height: 1rem;border-radius: 5px;border: 1px solid #979797;border-radius:8px;text-align: center;" readonly="readonly">
+					</span>项</div>
+				</div>
 			</div>			
 		</div>	
 		<div class="right"></div>
 	</div>
-	<div class="fourContentOfMobile">
+	<div class="server">
+		<div class="serverTitle">
+			<span>CUSTOMIZED</span><br><span>SERVISE</span>			
+		</div>
+		<h3>定做服务</h3>
+		<div class="serverContent">
+			<ul class="clear">
+				<li>
+					<div>Macaroon</div>
+					<img src="./imgs/assets/35d17c485897217f6ce020f981e79af.png">
+				</li>
+				<li>
+					<div>Chocolates</div>
+					<img src="./imgs/assets/ba9993037f2569e0b02effdd56f15e5.png">
+				</li>
+				<li>
+					<div>Doughhnut</div>
+					<img src="./imgs/assets/a1278ed2671abde019580118a4d3230.png">
+				</li>
+			</ul>
+		</div>
+	</div>
+<!-- 	<div class="fourContentOfMobile">
 		<div class="title">
 			6.1 FOR CHILDREN
 		</div>
@@ -269,17 +328,16 @@
 				<div class="miaoshu">树莓马卡龙</div>
 			</li>
 		</ul>
-	</div>
+	</div> -->
 	<div class="fiveContent">
 		<div class="one"></div>
-		<div class="two"></div>
+		<div class="two">gift bar</div>
 		<div class="three">
 		    <ul class="clear">
 		    	<li class="one"><img src="./imgs/assets/dfdsgdgrthgfhg3x.png" alt="5"></li>
-		    	<li class="two"><img src="./imgs/assets/MACARONEOther3x.png" alt="5"></li>
-		    	<li class="three"><img src="./imgs/assets/jhfghfsgr3x.png" alt="5"></li>
+		    	<li class="twothree">Magarone & Eakes</li>
 		    	<li class="four"><img src="./imgs/assets/hfdghsgts3x.png" alt="5"></li>
-		    	<li class="five"><img src="./imgs/assets/qdfshtda3x.png" alt="5"></li>
+		    	<li class="five"></li>
 		    	<li class="six"></li>
 		    </ul>
 		</div>
@@ -313,25 +371,27 @@
 					Luyoona@163.com<br>
 					13671997420
 				</p>
+				
 				<ul class="clearfix hidden">
-					<li>1</li>
-					<li>2</li>
-					<li>3</li>
+					<li><img src="./imgs/assets/FacebookCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/TwitterCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/InstagramCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/RSCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
 				</ul>
 				<p>@MA  CHÉRIE 2020</p>
 			</li>
 			<li class="followMe">
 				<h4>Follow Us</h4>
-				<ul class="clearfix">
-					<li>1</li>
-					<li>2</li>
-					<li>3</li>
-					<li>3</li>
+				<ul class="clearfix mobileShow">
+					<li><img src="./imgs/assets/FacebookCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/TwitterCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/InstagramCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/RSCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
 				</ul>
 				<ul class="clearfix show">
-					<li>1</li>
-					<li>2</li>
-					<li>3</li>
+					<li><img src="./imgs/assets/ShapeCopy3@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/ShapeCopy2@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/ShapeCopy4@3x.png" style="width: 2rem;height: 2rem;"></li>
 				</ul>
 			</li>
 			<li class="company">
