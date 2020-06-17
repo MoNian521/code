@@ -32,7 +32,8 @@
 			</li>
 			<li>
 				<img src="./imgs/icon/user.png" class="nickname">&nbsp;
-				<a href="#">登录</a>&nbsp;|&nbsp;<a href="#">注册</a>
+				<a href="javascript:void(0)" onclick="signIn(this)">登录</a>&nbsp;|&nbsp;
+				<a href="javascript:void(0)" onclick="signUp(this)">注册</a>
 			</li>
 			<li>
 				<img src="./imgs/icon/cart2.png" class="cart">&nbsp;
@@ -42,15 +43,17 @@
 	</div>	
 	<div class="menu menu1 menuPc">
 		<div class="menuTitle">
-			<span><i>MA  CHÉRIE</i></span>
-			<small>Online Store</small>
+			<a href="../../index.html">
+				<span><i>MA  CHÉRIE</i></span>
+				<small>Online Store</small>
+			</a>
 		</div>
 		<div class="menuA">
 			<ul>
 				<li><a href="./templates/ShoppingMall/index.html">SHOP 商城</a></li>
 				<li><a href="#">HISTORY 历史</a></li>
 				<li><a href="#">MEMBER 会员中心</a></li>
-				<li><a href="#">CONTACT 联系我们</a></li>
+				<li><a href="./templates/ContactUs/index.html">CONTACT 联系我们</a></li>
 			</ul>
 		</div>
 		<div class="menuSearch">
@@ -64,7 +67,7 @@
 				<li><a href="./templates/ShoppingMall/index.html">SHOP 商城</a></li>
 				<li><a href="#">HISTORY 历史</a></li>
 				<li><a href="#">MEMBER 会员中心</a></li>
-				<li><a href="#">CONTACT 联系我们</a></li>
+				<li><a href="./templates/ContactUs/index.html">CONTACT 联系我们</a></li>
 			</ul>
 		</div>
 	</div>
@@ -82,7 +85,7 @@
 						<li><a href="#">SHOP 商城</a></li>
 						<li><a href="#">HISTORY 历史</a></li>
 						<li><a href="#">MEMBER 会员中心</a></li>
-						<li><a href="#">CONTACT 联系我们</a></li>
+						<li><a href="./templates/ContactUs/index.html">CONTACT 联系我们</a></li>
 					</ul>
 				</div>
 				<img src="./imgs/icon/scanning.png" class="saoma">
@@ -314,24 +317,25 @@
 					13671997420
 				</p>
 				<ul class="clearfix hidden">
-					<li>1</li>
-					<li>2</li>
-					<li>3</li>
+					<li><img src="./imgs/assets/FacebookCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/TwitterCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/InstagramCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/RSCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
 				</ul>
 				<p>@MA  CHÉRIE 2020</p>
 			</li>
 			<li class="followMe">
 				<h4>Follow Us</h4>
-				<ul class="clearfix">
-					<li>1</li>
-					<li>2</li>
-					<li>3</li>
-					<li>3</li>
+				<ul class="clearfix mobileShow">
+					<li><img src="./imgs/assets/FacebookCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/TwitterCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/InstagramCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/RSCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
 				</ul>
 				<ul class="clearfix show">
-					<li>1</li>
-					<li>2</li>
-					<li>3</li>
+					<li><img src="./imgs/assets/ShapeCopy3@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/ShapeCopy2@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/ShapeCopy4@3x.png" style="width: 2rem;height: 2rem;"></li>
 				</ul>
 			</li>
 			<li class="company">
@@ -387,6 +391,41 @@
 			<span>更多</span>
 		</li>
 	</ul>
+</div>
+<div class="login">
+	<div class="close">
+		<img src="./imgs/loginImgs/close.png" onclick="closeFun()">
+	</div>
+	<h4 class="loginTitle"><i>MA  CHÉRIE</i></h4>
+	<div class="mainTitle">Sign in to join in Ma Chérie </div>
+	<small class="smallTitle">Enter your details to get started. </small>
+	<div class="formContent">
+		<ul>
+			<li class="contentItem">
+				<div class="label">账号</div>
+				<div class="formItem">
+					<img src="./imgs/loginImgs/user.png">
+					<input type="text" name="">
+				</div>
+			</li>
+			<li class="contentItem">
+				<div class="label">密码</div>
+				<div class="formItem">
+					<img src="./imgs/loginImgs/user.png">
+					<input type="password" name="">
+				</div>
+			</li>
+			<li class="contentItem">
+				<div class="label">性别</div>
+				<div class="formItem">
+					<img src="./imgs/loginImgs/user.png">
+					<input type="radio" name="sex" value="male" checked>男
+					<input type="radio" name="sex" value="female">女
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="btns">注册</div>
 </div>
 <script type="text/javascript" src="./js/index.js"></script>
 </body>
