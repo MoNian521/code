@@ -49,9 +49,9 @@ a{
         width: 20.94rem;
         height: 5.06rem;
         display: inline-block;
-        margin: 1.4% auto auto 12%;
+        margin: 1.4% auto auto 0%;
         color: #fff;
-        font-size: 3.63rem;
+        font-size: 2.63rem;
         text-align: right;
     }
     .smallTitle{

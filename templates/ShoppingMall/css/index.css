@@ -49,9 +49,9 @@ a{
         width: 20.94rem;
         height: 5.06rem;
         display: inline-block;
-        margin: 1.4% auto auto 5%;
+        margin: 1.4% auto auto 0%;
         color: #fff;
-        font-size: 3.63rem;
+        font-size: 2.63rem;
         text-align: right;
     }
     .smallTitle{
@@ -166,7 +166,7 @@ a{
         width: 20.4px;
         height: 20.4px;
         position: absolute;
-        right: 70px;
+        right: 110px;
         top: 13px;
         cursor: pointer;
     } 
