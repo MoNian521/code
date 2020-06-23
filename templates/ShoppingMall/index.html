@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>商城</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
 	<script type="text/javascript" src="./js/jquery-v3.5.1.js"></script>
 	<style type="text/css">
 		@font-face {
@@ -14,440 +15,469 @@
 		     font-family:"Microsoft YaHei","qxxin",sans-serif;
 		 }
 	</style>
-	<link rel="stylesheet" type="text/css" href="./css/index.css">
 </head>
 <body>
-<div id="TOP" style="height: 0;"></div>
-<div class="content">	
-	<div class="header">
-		<span class="btn">
-			<img src="./imgs/icon/caidan.png" class="caidan">
-		</span>		
-		<span class="title">MA  CHÉRIE</span>
-		<small class="smallTitle">P A R I S</small>
-		<ul class="rightFunctionalArea">
-			<li>
-				<a href="#">EN</a>&nbsp;
-				<img src="./imgs/icon/movie.png" class="movie">
-			</li>
-			<li>
-				<img src="./imgs/icon/user.png" class="nickname">&nbsp;
-				<a href="javascript:void(0)">登录</a>&nbsp;|&nbsp;<a href="javascript:void(0)">注册</a>
-			</li>
-			<li>
-				<img src="./imgs/icon/cart2.png" class="cart">&nbsp;
-				<a href="#">购物车</a>
-			</li>
-		</ul>
-	</div>	
-	<div class="menu menu1 menuPc">
-		<div class="menuTitle">
-			<a href="../../index.html">
-				<span><i>MA  CHÉRIE</i></span>
-				<small>Online Store</small>
-			</a>
-		</div>
-		<div class="menuA">
-			<ul>
-				<li><a href="#">SHOP 商城</a></li>
-				<li><a href="#">HISTORY 历史</a></li>
-				<li><a href="#">MEMBER 会员中心</a></li>
-				<li><a href="../ContactUs/index.html">CONTACT 联系我们</a></li>
+	<div id="TOP" style="height: 0;"></div>
+	<div class="content">	
+		<div class="header">
+			<span class="btn">
+				<img src="./imgs/icon/caidan.png" class="caidan">
+			</span>		
+			<span class="title">MA  CHÉRIE</span>
+			<small class="smallTitle">P A R I S</small>
+			<ul class="rightFunctionalArea">
+				<li>
+					<a href="#">EN</a>&nbsp;
+					<img src="./imgs/icon/movie.png" class="movie">
+				</li>
+				<li>
+					<img src="./imgs/icon/user.png" class="nickname">&nbsp;
+					<a href="javascript:void(0)" onclick="signIn(this)">登录</a>&nbsp;|&nbsp;
+					<a href="javascript:void(0)" onclick="signUp(this)">注册</a>
+				</li>
+				<li>
+					<img src="./imgs/icon/cart2.png" class="cart">&nbsp;
+					<a href="#">购物车</a>
+				</li>
 			</ul>
-		</div>
-		<div class="menuSearch">
-			<input type="text" name="secrch">
-			<img src="./imgs/icon/search.png">
-		</div>
-	</div>
-	<div class="menu menu1 menuPide">
-		<div class="menuA">
-			<ul>
-				<li><a href="#">SHOP 商城</a></li>
-				<li><a href="#">HISTORY 历史</a></li>
-				<li><a href="#">MEMBER 会员中心</a></li>
-				<li><a href="../ContactUs/index.html">CONTACT 联系我们</a></li>
-			</ul>
-		</div>
-	</div>
-	<div style="width: 100%;height: 27px;background-color: #EEEEEE;" class="border"></div>
-	<div class="firstContent">
-		<div class="one"></div>
-		<div class="pContent">
-			<div class="menu menu2">
-				<div class="menuTitle">
+		</div>	
+		<div class="menu menu1 menuPc">
+			<div class="menuTitle">
+				<a href="../../index.html">
 					<span><i>MA  CHÉRIE</i></span>
 					<small>Online Store</small>
+				</a>
+			</div>
+			<div class="menuA">
+				<ul>
+					<li><a href="#">SHOP 商城</a></li>
+					<li><a href="../history/index.html">HISTORY 历史</a></li>
+					<li><a href="../memberCenter/index.html">MEMBER 会员中心</a></li>
+					<li><a href="../ContactUs/index.html">CONTACT 联系我们</a></li>
+				</ul>
+			</div>
+			<div class="menuSearch">
+				<input type="text" name="secrch">
+				<img src="./imgs/icon/search.png">
+			</div>
+		</div>
+		<div class="menu menu1 menuPide">
+			<div class="menuA">
+				<ul>
+					<li><a href="#">SHOP 商城</a></li>
+					<li><a href="../history/index.html">HISTORY 历史</a></li>
+					<li><a href="../memberCenter/index.html">MEMBER 会员中心</a></li>
+					<li><a href="../ContactUs/index.html">CONTACT 联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+		<div style="width: 100%;height: 27px;background-color: #EEEEEE;" class="border"></div>
+		<div class="firstContent">
+			<div class="one"></div>
+			<div class="pContent">
+				<div class="menu menu2">
+					<div class="menuTitle">
+						<span><i>MA  CHÉRIE</i></span>
+						<small>Online Store</small>
+					</div>
+					<div class="menuA">
+						<ul>
+							<li><a href="#">SHOP 商城</a></li>
+							<li><a href="../history/index.html">HISTORY 历史</a></li>
+							<li><a href="../memberCenter/index.html">MEMBER 会员中心</a></li>
+							<li><a href="../ContactUs/index.html">CONTACT 联系我们</a></li>
+						</ul>
+					</div>
+					<img src="./imgs/icon/scanning.png" class="saoma">
+					<div class="menuSearch">					
+						<img src="./imgs/icon/search1.png" class="search">
+						<input type="text" name="secrch"><span class="btn">搜索</span>
+						<img src="./imgs/icon/camera.png" class="canemar">				
+					</div>
+					<img src="./imgs/assets/41d3c6a88e2ccda6e488b2d3fb24fa1.png" class="erweima1">
+					<img src="./imgs/icon/erweima.png" class="erweima">
 				</div>
-				<div class="menuA">
-					<ul>
-						<li><a href="#">SHOP 商城</a></li>
-						<li><a href="#">HISTORY 历史</a></li>
-						<li><a href="#">MEMBER 会员中心</a></li>
-						<li><a href="../ContactUs/index.html">CONTACT 联系我们</a></li>
-					</ul>
+				<div class="two"></div>
+				<div class="three">
+				    <img class="img-slide img1" src="./imgs/assets/changeImg/Screen Shot 2020-05-31 at 1.39.14 PM.png" alt="1">
+				    <img class="img-slide img2" src="./imgs/assets/changeImg/Screen Shot 2020-05-31 at 1.42.20 PM.png" alt="2">
+				    <img class="img-slide img3" src="./imgs/assets/changeImg/Screen Shot 2020-05-31 at 1.42.34 PM.png" alt="3">
+				    <img class="img-slide img4" src="./imgs/assets/changeImg/Screen Shot 2020-05-31 at 1.42.47 PM.png" alt="4">
+				    <img class="img-slide img5" src="./imgs/assets/changeImg/Screen Shot 2020-05-31 at 1.42.59 PM.png" alt="5">
 				</div>
-				<img src="./imgs/icon/scanning.png" class="saoma">
-				<div class="menuSearch">					
-					<img src="./imgs/icon/search1.png" class="search">
-					<input type="text" name="secrch"><span class="btn">搜索</span>
-					<img src="./imgs/icon/camera.png" class="canemar">				
-				</div>
-				<img src="./imgs/assets/41d3c6a88e2ccda6e488b2d3fb24fa1.png" class="erweima1">
-				<img src="./imgs/icon/erweima.png" class="erweima">
+			</div>
+			<div class="four"></div>
+		</div>
+		<div class="secondContent">
+			<div class="one"></div>		
+			<div class="three">
+				<div class="item item1"><h2>CONFECTIONERY & GIFT</h2></div>
+				<div class="item item2">Macaroon</div>
+				<div class="item item3">Ehooolates</div>
+				<div class="item item4">Doughnut</div>
 			</div>
 			<div class="two"></div>
-			<div class="three">
-			    <img class="img-slide img1" src="./imgs/assets/changeImg/Screen Shot 2020-05-31 at 1.39.14 PM.png" alt="1">
-			    <img class="img-slide img2" src="./imgs/assets/changeImg/Screen Shot 2020-05-31 at 1.42.20 PM.png" alt="2">
-			    <img class="img-slide img3" src="./imgs/assets/changeImg/Screen Shot 2020-05-31 at 1.42.34 PM.png" alt="3">
-			    <img class="img-slide img4" src="./imgs/assets/changeImg/Screen Shot 2020-05-31 at 1.42.47 PM.png" alt="4">
-			    <img class="img-slide img5" src="./imgs/assets/changeImg/Screen Shot 2020-05-31 at 1.42.59 PM.png" alt="5">
-			</div>
+			<div class="four"></div>
 		</div>
-		<div class="four"></div>
-	</div>
-	<div class="secondContent">
-		<div class="one"></div>		
-		<div class="three">
-			<div class="item item1"><h2>CONFECTIONERY & GIFT</h2></div>
-			<div class="item item2">Macaroon</div>
-			<div class="item item3">Ehooolates</div>
-			<div class="item item4">Doughnut</div>
+		<div class="threeContent">
+			<div class="one"></div>	
+			<div class="two">
+				<ul class="threeTitle clear">
+					<li class="one"></li>
+					<li class="two">
+						新品介绍
+					</li>
+					<li class="three"></li>
+					<li class="xiushi">
+						<span><</span>
+						<span class="gray">|</span>
+						<span>></span>
+					</li>
+					<li class="one"></li>
+					<li class="two">
+						人气商品
+					</li>
+					<li class="three"></li>
+				</ul>
+				<ul class="content clear">
+					<li>
+						<img src="./imgs/assets/helena-pg_2400x2400@3x.png">
+					</li>
+					<li class="two">
+						<h3>MA  CHÉRIE</h3>
+						<small>Online Store</small>
+						<p class="new">new</p>
+						<p>&</p>
+						<p>Popular </p>
+					</li>
+					<li>
+						<img src="./imgs/assets/620d055bd4e74f14e8378d4436324fe.png">
+					</li>
+				</ul>
+			</div>	
+			<div class="four"></div>
 		</div>
-		<div class="two"></div>
-		<div class="four"></div>
-	</div>
-	<div class="threeContent">
-		<div class="one"></div>	
-		<div class="two">
-			<ul class="threeTitle clear">
-				<li class="one"></li>
-				<li class="two">
-					新品介绍
-				</li>
-				<li class="three"></li>
-				<li class="xiushi">
-					<span><</span>
-					<span class="gray">|</span>
-					<span>></span>
-				</li>
-				<li class="one"></li>
-				<li class="two">
-					人气商品
-				</li>
-				<li class="three"></li>
-			</ul>
-			<ul class="content clear">
-				<li>
-					<img src="./imgs/assets/helena-pg_2400x2400@3x.png">
-				</li>
-				<li class="two">
-					<h3>MA  CHÉRIE</h3>
-					<small>Online Store</small>
-					<p class="new">new</p>
-					<p>&</p>
-					<p>Popular </p>
-				</li>
-				<li>
-					<img src="./imgs/assets/620d055bd4e74f14e8378d4436324fe.png">
-				</li>
-			</ul>
-		</div>	
-		<div class="four"></div>
-	</div>
-	<div class="fourContent">
-		<div class="left"></div>	
-		<div class="center">
-			<div class="menuHead">
-				<select name="one">
-					<option value="1">销量</option>
-					<option value="2">口碑</option>
-					<option value="3">评价</option>
-				</select>
-				<select name="two">
-					<option value="1">价格</option>
-				</select>
-				<img src="./imgs/assets/cards3x.png" class="cards">
-				<img src="./imgs/assets/lists3x.png" class="lists">
+		<div class="fourContent">
+			<div class="left"></div>	
+			<div class="center">
+				<div class="menuHead">
+					<select name="one">
+						<option value="1">销量</option>
+						<option value="2">口碑</option>
+						<option value="3">评价</option>
+					</select>
+					<select name="two">
+						<option value="1">价格</option>
+					</select>
+					<img src="./imgs/assets/cards3x.png" class="cards">
+					<img src="./imgs/assets/lists3x.png" class="lists">
+				</div>
+				<div id="cards">
+					<ul class="clear">
+						<li>
+							<img src="./imgs/assets/01f53e4e22fb7b0f216e7988e9b5bce1.png">
+							<div>
+								<h4>年轮蛋糕</h4>
+								<span>
+									<a href="#">
+										<img src="./imgs/icon/cartblock.png">
+									</a>
+									<a href="#">加入购物车</a>
+								</span>
+							</div>
+						</li>
+						<li>
+							<img src="./imgs/assets/featuredblock02-3x.png">
+							<div>
+								<h4>树莓马卡龙</h4>
+								<span>
+									<a href="#">
+										<img src="./imgs/icon/cartblock.png">
+									</a>
+									<a href="#">加入购物车</a>
+								</span>
+							</div>
+						</li>
+						<li>
+							<img src="./imgs/assets/01f53e4e22fb7b0f216e7988e9b5bce1@3x.png">
+							<div>
+								<h4>热带毛巾卷</h4>
+								<span>
+									<a href="#">
+										<img src="./imgs/icon/cartblock.png">
+									</a>
+									<a href="#">加入购物车</a>
+								</span>
+							</div>
+						</li>
+						<li>
+							<img src="./imgs/assets/a8e2433115334c945cfdd2d26e82d4c6@3x.png">
+							<div>
+								<h4>马卡龙礼盒</h4>
+								<span>
+									<a href="#">
+										<img src="./imgs/icon/cartblock.png">
+									</a>
+									<a href="#">加入购物车</a>
+								</span>
+							</div>
+						</li>
+						<li>
+							<img src="./imgs/assets/assdsdfregrsgtrhythy3x.png">
+							<div>
+								<h4>香草马卡龙</h4>
+								<span>
+									<a href="#">
+										<img src="./imgs/icon/cartblock.png">
+									</a>
+									<a href="#">加入购物车</a>
+								</span>
+							</div>
+						</li>
+						<li>
+							<img src="./imgs/assets/2218b8bc25055d2d8af769011ba48643@3x.png">
+							<div>
+								<h4>甜甜圈</h4>
+								<span>
+									<a href="#">
+										<img src="./imgs/icon/cartblock.png">
+									</a>
+									<a href="#">加入购物车</a>
+								</span>
+							</div>
+						</li>
+						<li>
+							<img src="./imgs/assets/9f40cb837219504ed6c8601d3653d7e8@3x.png">
+							<div>
+								<h4>杏仁曲奇</h4>
+								<span>
+									<a href="#">
+										<img src="./imgs/icon/cartblock.png">
+									</a>
+									<a href="#">加入购物车</a>
+								</span>
+							</div>
+						</li>
+						<li>
+							<img src="./imgs/assets/01f53e4e22fb7b0f216e7988e9b5bce1.png">
+							<div>
+								<h4>蛋糕杯</h4>
+								<span>
+									<a href="#">
+										<img src="./imgs/icon/cartblock.png">
+									</a>
+									<a href="#">加入购物车</a>
+								</span>
+							</div>
+						</li>
+					</ul>
+					<div class="page">					
+						<div>跳转第<input type="text" name="" style="width: 1.63rem;height: 1rem;border-radius: 5px;border: 1px solid #979797;border-radius:8px;">页</div>
+						<div class="pageNum">
+							页数
+							<span>1</span>
+							<span>2</span>
+							<span>3</span>
+							<span>4</span>
+						</div>
+						<div>本页共<span>
+							<input type="text" value="6" style="width: 1.63rem;height: 1rem;border-radius: 5px;border: 1px solid #979797;border-radius:8px;text-align: center;" readonly="readonly">
+						</span>项</div>
+					</div>
+				</div>			
+			</div>	
+			<div class="right"></div>
+		</div>
+		<div class="server">
+			<div class="serverTitle">
+				<span>CUSTOMIZED</span><br><span>SERVISE</span>			
 			</div>
-			<div id="cards">
+			<h3>定做服务</h3>
+			<div class="serverContent">
 				<ul class="clear">
 					<li>
-						<img src="./imgs/assets/01f53e4e22fb7b0f216e7988e9b5bce1.png">
-						<div>
-							<h4>年轮蛋糕</h4>
-							<span>
-								<a href="#">
-									<img src="./imgs/icon/cartblock.png">
-								</a>
-								<a href="#">加入购物车</a>
-							</span>
-						</div>
+						<div>Macaroon</div>
+						<img src="./imgs/assets/35d17c485897217f6ce020f981e79af.png">
 					</li>
 					<li>
-						<img src="./imgs/assets/featuredblock02-3x.png">
-						<div>
-							<h4>树莓马卡龙</h4>
-							<span>
-								<a href="#">
-									<img src="./imgs/icon/cartblock.png">
-								</a>
-								<a href="#">加入购物车</a>
-							</span>
-						</div>
+						<div>Chocolates</div>
+						<img src="./imgs/assets/ba9993037f2569e0b02effdd56f15e5.png">
 					</li>
 					<li>
-						<img src="./imgs/assets/01f53e4e22fb7b0f216e7988e9b5bce1@3x.png">
-						<div>
-							<h4>热带毛巾卷</h4>
-							<span>
-								<a href="#">
-									<img src="./imgs/icon/cartblock.png">
-								</a>
-								<a href="#">加入购物车</a>
-							</span>
-						</div>
-					</li>
-					<li>
-						<img src="./imgs/assets/a8e2433115334c945cfdd2d26e82d4c6@3x.png">
-						<div>
-							<h4>马卡龙礼盒</h4>
-							<span>
-								<a href="#">
-									<img src="./imgs/icon/cartblock.png">
-								</a>
-								<a href="#">加入购物车</a>
-							</span>
-						</div>
-					</li>
-					<li>
-						<img src="./imgs/assets/assdsdfregrsgtrhythy3x.png">
-						<div>
-							<h4>香草马卡龙</h4>
-							<span>
-								<a href="#">
-									<img src="./imgs/icon/cartblock.png">
-								</a>
-								<a href="#">加入购物车</a>
-							</span>
-						</div>
-					</li>
-					<li>
-						<img src="./imgs/assets/2218b8bc25055d2d8af769011ba48643@3x.png">
-						<div>
-							<h4>甜甜圈</h4>
-							<span>
-								<a href="#">
-									<img src="./imgs/icon/cartblock.png">
-								</a>
-								<a href="#">加入购物车</a>
-							</span>
-						</div>
-					</li>
-					<li>
-						<img src="./imgs/assets/9f40cb837219504ed6c8601d3653d7e8@3x.png">
-						<div>
-							<h4>杏仁曲奇</h4>
-							<span>
-								<a href="#">
-									<img src="./imgs/icon/cartblock.png">
-								</a>
-								<a href="#">加入购物车</a>
-							</span>
-						</div>
-					</li>
-					<li>
-						<img src="./imgs/assets/01f53e4e22fb7b0f216e7988e9b5bce1.png">
-						<div>
-							<h4>蛋糕杯</h4>
-							<span>
-								<a href="#">
-									<img src="./imgs/icon/cartblock.png">
-								</a>
-								<a href="#">加入购物车</a>
-							</span>
-						</div>
+						<div>Doughhnut</div>
+						<img src="./imgs/assets/a1278ed2671abde019580118a4d3230.png">
 					</li>
 				</ul>
-				<div class="page">					
-					<div>跳转第<input type="text" name="" style="width: 1.63rem;height: 1rem;border-radius: 5px;border: 1px solid #979797;border-radius:8px;">页</div>
-					<div class="pageNum">
-						页数
-						<span>1</span>
-						<span>2</span>
-						<span>3</span>
-						<span>4</span>
-					</div>
-					<div>本页共<span>
-						<input type="text" value="6" style="width: 1.63rem;height: 1rem;border-radius: 5px;border: 1px solid #979797;border-radius:8px;text-align: center;" readonly="readonly">
-					</span>项</div>
-				</div>
-			</div>			
-		</div>	
-		<div class="right"></div>
-	</div>
-	<div class="server">
-		<div class="serverTitle">
-			<span>CUSTOMIZED</span><br><span>SERVISE</span>			
+			</div>
 		</div>
-		<h3>定做服务</h3>
-		<div class="serverContent">
+		<!--<div class="fourContentOfMobile">
+			<div class="title">
+				6.1 FOR CHILDREN
+			</div>
 			<ul class="clear">
-				<li>
-					<div>Macaroon</div>
-					<img src="./imgs/assets/35d17c485897217f6ce020f981e79af.png">
+				<li class="moblieOne">
+					<img src="./imgs/assets/348e87a10fa446733d8f8af6f68722b.jpg" class="mobileImg">
+					<div class="miaoshu">缤纷巧克力</div>
 				</li>
-				<li>
-					<div>Chocolates</div>
-					<img src="./imgs/assets/ba9993037f2569e0b02effdd56f15e5.png">
+				<li class="moblieTwo">
+					<img src="./imgs/assets/2db6a79c4d79c948268559be0c897b0.jpg" class="mobileImg">
+					<img src="./imgs/assets/helena-pg_2400x2400@3x.png" class="mobileImg">
+					<div class="miaoshu">惊喜礼盒</div>
 				</li>
-				<li>
-					<div>Doughhnut</div>
-					<img src="./imgs/assets/a1278ed2671abde019580118a4d3230.png">
+				<li class="moblieThree">
+					<img src="./imgs/assets/featuredblock02-3x.png" class="mobileImg">
+					<div class="miaoshu">树莓马卡龙</div>
+				</li>
+			</ul>
+		</div> -->
+		<div class="fiveContent">
+			<div class="one"></div>
+			<div class="two">gift bar</div>
+			<div class="three">
+			    <ul class="clear">
+			    	<li class="one"><img src="./imgs/assets/dfdsgdgrthgfhg3x.png" alt="5"></li>
+			    	<li class="twothree">Magarone & Eakes</li>
+			    	<li class="four"><img src="./imgs/assets/hfdghsgts3x.png" alt="5"></li>
+			    	<li class="five"></li>
+			    	<li class="six"></li>
+			    </ul>
+			</div>
+			<div class="four"></div>
+		</div>
+		<div class="sixContent">
+			<div class="one"></div>
+			<div class="two">
+			    <ul class="clear">
+			    	<li><img src="./imgs/assets/brandi3x.png" alt="5"></li>
+			    	<li><img src="./imgs/assets/+@3x.png" alt="5"></li>
+			    </ul>
+			</div>
+			<div class="three"></div>
+		</div>
+		<div class="sevenContent">
+			<ul>
+				<li><img src="./imgs/assets/baliparis3x.png"></li>
+				<li><img src="./imgs/assets/balitieta3x.png"></li>
+				<li><img src="./imgs/assets/qiaokeli3x.png"></li>
+				<li><img src="./imgs/assets/maqialong3x.png"></li>
+
+			</ul>
+		</div>
+		<div class="footer">
+			<ul class="clear">
+				<li class="info">
+					<h4><i>MA  CHÉRIE</i></h4>
+					<p>
+						Designer：Yukilie<br>
+						Luyoona@163.com<br>
+						13671997420
+					</p>
+					
+					<ul class="clearfix hidden">
+						<li><img src="./imgs/assets/FacebookCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+						<li><img src="./imgs/assets/TwitterCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+						<li><img src="./imgs/assets/InstagramCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+						<li><img src="./imgs/assets/RSCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					</ul>
+					<p>@MA  CHÉRIE 2020</p>
+				</li>
+				<li class="followMe">
+					<h4>Follow Us</h4>
+					<ul class="clearfix mobileShow">
+						<li><img src="./imgs/assets/FacebookCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+						<li><img src="./imgs/assets/TwitterCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+						<li><img src="./imgs/assets/InstagramCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+						<li><img src="./imgs/assets/RSCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					</ul>
+					<ul class="clearfix show">
+						<li><img src="./imgs/assets/ShapeCopy3@3x.png" style="width: 2rem;height: 2rem;"></li>
+						<li><img src="./imgs/assets/ShapeCopy2@3x.png" style="width: 2rem;height: 2rem;"></li>
+						<li><img src="./imgs/assets/ShapeCopy4@3x.png" style="width: 2rem;height: 2rem;"></li>
+					</ul>
+				</li>
+				<li class="company">
+					<h4>Company</h4>
+					<ul class="clearfix">
+						<li>
+							<div>About</div>
+							<div>Shop</div>
+							<div>Member & Contact</div>
+							<div>Say Hello</div>
+						</li>
+						<li>
+							https://www.haagendazs.com.cn/Website/index.html 
+							<br>
+							<br>
+							霍格沃茨路97号
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</div>
+		<div class="fixContent"><a href="#TOP" style="color: #000;"><h1>TOP</h1></a></div>
 	</div>
-<!-- 	<div class="fourContentOfMobile">
-		<div class="title">
-			6.1 FOR CHILDREN
-		</div>
-		<ul class="clear">
-			<li class="moblieOne">
-				<img src="./imgs/assets/348e87a10fa446733d8f8af6f68722b.jpg" class="mobileImg">
-				<div class="miaoshu">缤纷巧克力</div>
-			</li>
-			<li class="moblieTwo">
-				<img src="./imgs/assets/2db6a79c4d79c948268559be0c897b0.jpg" class="mobileImg">
-				<img src="./imgs/assets/helena-pg_2400x2400@3x.png" class="mobileImg">
-				<div class="miaoshu">惊喜礼盒</div>
-			</li>
-			<li class="moblieThree">
-				<img src="./imgs/assets/featuredblock02-3x.png" class="mobileImg">
-				<div class="miaoshu">树莓马卡龙</div>
-			</li>
-		</ul>
-	</div> -->
-	<div class="fiveContent">
-		<div class="one"></div>
-		<div class="two">gift bar</div>
-		<div class="three">
-		    <ul class="clear">
-		    	<li class="one"><img src="./imgs/assets/dfdsgdgrthgfhg3x.png" alt="5"></li>
-		    	<li class="twothree">Magarone & Eakes</li>
-		    	<li class="four"><img src="./imgs/assets/hfdghsgts3x.png" alt="5"></li>
-		    	<li class="five"></li>
-		    	<li class="six"></li>
-		    </ul>
-		</div>
-		<div class="four"></div>
-	</div>
-	<div class="sixContent">
-		<div class="one"></div>
-		<div class="two">
-		    <ul class="clear">
-		    	<li><img src="./imgs/assets/brandi3x.png" alt="5"></li>
-		    	<li><img src="./imgs/assets/+@3x.png" alt="5"></li>
-		    </ul>
-		</div>
-		<div class="three"></div>
-	</div>
-	<div class="sevenContent">
-		<ul>
-			<li><img src="./imgs/assets/baliparis3x.png"></li>
-			<li><img src="./imgs/assets/balitieta3x.png"></li>
-			<li><img src="./imgs/assets/qiaokeli3x.png"></li>
-			<li><img src="./imgs/assets/maqialong3x.png"></li>
-
-		</ul>
-	</div>
-	<div class="footer">
-		<ul class="clear">
-			<li class="info">
-				<h4><i>MA  CHÉRIE</i></h4>
-				<p>
-					Designer：Yukilie<br>
-					Luyoona@163.com<br>
-					13671997420
-				</p>
-				
-				<ul class="clearfix hidden">
-					<li><img src="./imgs/assets/FacebookCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
-					<li><img src="./imgs/assets/TwitterCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
-					<li><img src="./imgs/assets/InstagramCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
-					<li><img src="./imgs/assets/RSCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
-				</ul>
-				<p>@MA  CHÉRIE 2020</p>
-			</li>
-			<li class="followMe">
-				<h4>Follow Us</h4>
-				<ul class="clearfix mobileShow">
-					<li><img src="./imgs/assets/FacebookCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
-					<li><img src="./imgs/assets/TwitterCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
-					<li><img src="./imgs/assets/InstagramCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
-					<li><img src="./imgs/assets/RSCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
-				</ul>
-				<ul class="clearfix show">
-					<li><img src="./imgs/assets/ShapeCopy3@3x.png" style="width: 2rem;height: 2rem;"></li>
-					<li><img src="./imgs/assets/ShapeCopy2@3x.png" style="width: 2rem;height: 2rem;"></li>
-					<li><img src="./imgs/assets/ShapeCopy4@3x.png" style="width: 2rem;height: 2rem;"></li>
-				</ul>
-			</li>
-			<li class="company">
-				<h4>Company</h4>
-				<ul class="clearfix">
-					<li>
-						<div>About</div>
-						<div>Shop</div>
-						<div>Member & Contact</div>
-						<div>Say Hello</div>
-					</li>
-					<li>
-						https://www.haagendazs.com.cn/Website/index.html 
-						<br>
-						<br>
-						霍格沃茨路97号
-					</li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-	<div class="fixContent"><a href="#TOP" style="color: #000;"><h1>TOP</h1></a></div>
-</div>
-<div class="fixMenu">
+	<div class="fixMenu">
 	<ul class="clear">
 		<li>
-			<!-- <img src="./imgs/icon/home.png" class="common"> -->
 			<img src="./imgs/icon/home.png" data-active="home1.png" data-common="home.png">
 			<span>首页</span>
 		</li>
 		<li>
-			<!-- <img src="./imgs/icon/cart.png" class="common">
-			<img src="./imgs/icon/cart1.png" class="active"> -->
 			<img src="./imgs/icon/cart.png" data-active="cart1.png" data-common="cart.png">
 			<span>购物车</span>
 		</li>
 		<li>
-			<!-- <img src="./imgs/icon/history.png" class="common">
-			<img src="./imgs/icon/history1.png" class="active"> -->
 			<img src="./imgs/icon/history.png" data-active="history1.png" data-common="history.png">
 			<span>历史</span>
 		</li>
 		<li>
-			<!-- <img src="./imgs/icon/huiyuan.png" class="common">
-			<img src="./imgs/icon/huiyuan1.png" class="active"> -->
 			<img src="./imgs/icon/huiyuan.png" data-active="huiyuan1.png" data-common="huiyuan.png">
 			<span>会员中心</span>
 		</li>
 		<li>
-			<!-- <img src="./imgs/icon/ellipsis.png" class="common">
-			<img src="./imgs/icon/ellipsis1.png" class="active"> -->
 			<img src="./imgs/icon/ellipsis.png" data-active="ellipsis1.png" data-common="ellipsis.png">
 			<span>更多</span>
 		</li>
 	</ul>
 </div>
+
+
+<div class="login" style="display: none;">
+	<div class="close">
+		<img src="./imgs/loginImgs/close.png" onclick="closeFun()">
+	</div>
+	<h4 class="loginTitle"><i>MA  CHÉRIE</i></h4>
+	<div class="mainTitle">Sign in to join in Ma Chérie </div>
+	<small class="smallTitle">Enter your details to get started. </small>
+	<div class="formContent">
+		<ul>
+			<li class="contentItem">
+				<div class="label">账号</div>
+				<div class="formItem">
+					<img src="./imgs/loginImgs/user.png">
+					<input type="text" name="">
+				</div>
+			</li>
+			<li class="contentItem">
+				<div class="label">密码</div>
+				<div class="formItem">
+					<img src="./imgs/loginImgs/password.png">
+					<input type="password" name="">
+				</div>
+			</li>
+			<li class="contentItem">
+				<div class="label">性别</div>
+				<div class="formItem">
+					<img src="./imgs/loginImgs/user.png">
+					<input type="radio" name="sex" value="male" checked>男
+					<input type="radio" name="sex" value="female">女
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="btns">注册</div>
+</div>
+<div class="layer"></div>
 <script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>

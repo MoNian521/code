@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>会员中心</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	
+	<script type="text/javascript" src="./js/jquery-v3.5.1.js"></script>
+	<style type="text/css">
+		@font-face {
+		     font-style:normal;
+		     font-family:'qxxin';
+		     src:url('../../fonts/qxxin.ttf') format('truetype');
+		 }
+		 body {
+		     font-family:"Microsoft YaHei","qxxin",sans-serif;
+		 }
+	</style>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+<div id="TOP" style="height: 0;"></div>
+<div class="content">	
+	<div class="header">
+		<span class="btn">
+			<img src="./imgs/icon/caidan.png" class="caidan">
+		</span>		
+		<span class="title">MA  CHÉRIE</span>
+		<small class="smallTitle">P A R I S</small>
+		<ul class="rightFunctionalArea">
+			<li>
+				<a href="#">EN</a>&nbsp;
+				<img src="./imgs/icon/movie.png" class="movie">
+			</li>
+			<li>
+				<img src="./imgs/icon/user.png" class="nickname">&nbsp;
+				<a href="javascript:void(0)" onclick="signIn(this)">登录</a>&nbsp;|&nbsp;
+				<a href="javascript:void(0)" onclick="signUp(this)">注册</a>
+			</li>
+			<li>
+				<img src="./imgs/icon/cart2.png" class="cart">&nbsp;
+				<a href="#">购物车</a>
+			</li>
+		</ul>
+	</div>	
+	<div class="menu menu1 menuPc">
+		<div class="menuTitle">
+			<a href="../../index.html">
+				<span><i>MA  CHÉRIE</i></span>
+				<small>Online Store</small>
+			</a>
+		</div>
+		<div class="menuA">
+			<ul>
+				<li><a href="../ShoppingMall/index.html">SHOP 商城</a></li>
+				<li><a href="#">HISTORY 历史</a></li>
+				<li><a href="#">MEMBER 会员中心</a></li>
+				<li><a href="../ContactUs/index.html">CONTACT 联系我们</a></li>
+			</ul>
+		</div>
+		<div class="menuSearch">
+			<input type="text" name="secrch">
+			<img src="./imgs/icon/search.png">
+		</div>
+	</div>
+	<div class="menu menu1 menuPide">
+		<div class="menuA">
+			<ul>
+				<li><a href="../ShoppingMall/index.html">SHOP 商城</a></li>
+				<li><a href="#">HISTORY 历史</a></li>
+				<li><a href="#">MEMBER 会员中心</a></li>
+				<li><a href="../ContactUs/index.html">CONTACT 联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<div style="width: 100%;height: 27px;background-color: #EEEEEE;" class="border"></div>
+	<div class="firstContent">
+		<div class="one">
+			<div class="oneItem"></div>
+			<div class="twoItem"></div>
+		</div>
+		<div class="pContent">
+			<div class="menu menu2">
+				<div class="menuTitle">
+					<span><i>MA  CHÉRIE</i></span>
+					<small>Online Store</small>
+				</div>
+				<div class="menuA">
+					<ul>
+						<li><a href="../ShoppingMall/index.html">SHOP 商城</a></li>
+						<li><a href="#">HISTORY 历史</a></li>
+						<li><a href="#">MEMBER 会员中心</a></li>
+						<li><a href="../ContactUs/index.html">CONTACT 联系我们</a></li>
+					</ul>
+				</div>
+				<img src="./imgs/icon/scanning.png" class="saoma">
+				<div class="menuSearch">					
+					<img src="./imgs/icon/search1.png" class="search">
+					<input type="text" name="secrch"><span class="secrchBtn">搜索</span>
+					<img src="./imgs/icon/camera.png" class="canemar">				
+				</div>
+				<img src="./imgs/assets/41d3c6a88e2ccda6e488b2d3fb24fa1.png" class="erweima1">
+				<img src="./imgs/icon/erweima.png" class="erweima">
+			</div>
+			<div class="three">
+			    <div class="left" align="center">
+			    	<div class="leftItemOne" align="center">
+			    		<div class="personImg" align="center">
+				    		<img src="./imgs/assets/773f0a13dc4711403d747e8090d8713.png">
+				    	</div>
+				    	<h4>Yukilie</h4>
+				    	<button>编辑资料</button>
+			    	</div>
+			    	<div class="leftItemTwo" align="center">
+			    		<ul>
+			    			<li class="active mobileActive">推荐有礼</li>
+			    			<li>会员首页</li>
+			    			<li>会员信息</li>
+			    			<li>我的订单</li>
+			    			<li>地址管理</li>
+			    			<li>我的卡卷</li>			    			
+			    		</ul>
+			    	</div>
+			    	<div class="leftItemThree">
+			    		更多权益
+			    	</div>
+			    </div>
+			    <div class="right">
+			    	<div class="rightItemOne">
+			    		<ul class="clear">
+			    			<li>
+			    				<div>
+			    					<img src="./imgs/assets/jifencopy@3x.png" style="width: 100%;height: 100%;">
+			    				</div>
+			    			</li>
+			    			<li>
+			    				<div class="jifen">
+			    					<div class="jfDetail">
+			    						积分：60
+			    					</div>
+			    					<div class="jfBtn">
+			    						<button>积分明细</button>
+			    						<button>会员权益</button>
+			    					</div>
+			    				</div>
+			    				<p>2020年06月01日过期积分：0</p>
+			    			</li>
+			    		</ul>
+			    	</div>
+			    	<div class="rightItemTwo">
+						<div class="menberTitle">
+							会员信息
+						</div>
+						<div class="list">
+							<span>昵称：</span><span>Yukilie</span>
+						</div>
+						<div class="list">
+							<span>性别：</span><span>女</span>
+						</div>
+						<div class="list">
+							<span>出身日期：</span><span>1998-10-01</span>
+						</div>
+						<div class="list">
+							<span>手机号：</span><span>13671997420</span>
+						</div>
+						<div class="list">
+							<span>邮箱：</span><span>Luyoona@163.com </span>	
+						</div>
+						<div class="list">
+							<button>修改登录密码</button>
+    						<button>编辑</button>
+						</div>
+			    	</div>
+			    	<div class="onlineShop">
+			    		MA  CHÉRIE  ONLINE SHOP
+			    	</div>
+			    </div>
+			</div>
+		</div>
+		<div class="one1">
+			<div class="one1Item"></div>
+			<div class="two1Item"></div>
+		</div>
+	</div>
+
+
+	<div class="sevenContent">
+		<ul>
+			<li><img src="./imgs/assets/baliparis3x.png"></li>
+			<li><img src="./imgs/assets/balitieta3x.png"></li>
+			<li><img src="./imgs/assets/qiaokeli3x.png"></li>
+			<li><img src="./imgs/assets/maqialong3x.png"></li>
+
+		</ul>
+	</div>
+	<div class="footer">
+		<ul class="clear">
+			<li class="info">
+				<h4><i>MA  CHÉRIE</i></h4>
+				<p>
+					Designer：Yukilie<br>
+					Luyoona@163.com<br>
+					13671997420
+				</p>
+				
+				<ul class="clearfix hidden">
+					<li><img src="./imgs/assets/FacebookCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/TwitterCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/InstagramCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/RSCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+				</ul>
+				<p>@MA  CHÉRIE 2020</p>
+			</li>
+			<li class="followMe">
+				<h4>Follow Us</h4>
+				<ul class="clearfix mobileShow">
+					<li><img src="./imgs/assets/FacebookCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/TwitterCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/InstagramCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/RSCopy@3x.png" style="width: 2rem;height: 2rem;"></li>
+				</ul>
+				<ul class="clearfix show">
+					<li><img src="./imgs/assets/ShapeCopy3@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/ShapeCopy2@3x.png" style="width: 2rem;height: 2rem;"></li>
+					<li><img src="./imgs/assets/ShapeCopy4@3x.png" style="width: 2rem;height: 2rem;"></li>
+				</ul>
+			</li>
+			<li class="company">
+				<h4>Company</h4>
+				<ul class="clearfix">
+					<li>
+						<div>About</div>
+						<div>Shop</div>
+						<div>Member & Contact</div>
+						<div>Say Hello</div>
+					</li>
+					<li>
+						https://www.haagendazs.com.cn/Website/index.html 
+						<br>
+						<br>
+						霍格沃茨路97号
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="fixContent"><a href="#TOP" style="color: #000;"><h1>TOP</h1></a></div>
+</div>
+<div class="fixMenu">
+	<ul class="clear">
+		<li>
+			<!-- <a href="../../index.html"> -->
+				<img src="./imgs/icon/home.png" data-active="home1.png" data-common="home.png">
+				<span>首页</span>
+			<!-- </a>			 -->
+		</li>
+		<li>
+			<!-- <a href="javascript:void(0);"> -->
+				<img src="./imgs/icon/cart.png" data-active="cart1.png" data-common="cart.png">
+				<span>购物车</span>
+			<!-- </a>			 -->
+		</li>
+		<li>
+			<!-- <a href="javascript:void(0);"> -->
+				<img src="./imgs/icon/history.png" data-active="history1.png" data-common="history.png">
+				<span>历史</span>
+			<!-- </a>			 -->
+		</li>
+		<li>
+			<!-- <a href="javascript:void(0);"> -->
+				<img src="./imgs/icon/huiyuan.png" data-active="huiyuan1.png" data-common="huiyuan.png">
+				<span>会员中心</span>
+			<!-- </a>			 -->
+		</li>
+		<li>
+			<!-- <a href="javascript:void(0);"> -->
+				<img src="./imgs/icon/ellipsis.png" data-active="ellipsis1.png" data-common="ellipsis.png">
+				<span>更多</span>
+			<!-- </a> -->
+			
+		</li>
+	</ul>
+</div>
+
+<div class="login">
+	<div class="close">
+		<img src="./imgs/loginImgs/close.png" onclick="closeFun()">
+	</div>
+	<h4 class="loginTitle"><i>MA  CHÉRIE</i></h4>
+	<div class="mainTitle">Sign in to join in Ma Chérie </div>
+	<small class="smallTitle">Enter your details to get started. </small>
+	<div class="formContent">
+		<ul>
+			<li class="contentItem">
+				<div class="label">账号</div>
+				<div class="formItem">
+					<img src="./imgs/loginImgs/user.png">
+					<input type="text" name="">
+				</div>
+			</li>
+			<li class="contentItem">
+				<div class="label">密码</div>
+				<div class="formItem">
+					<img src="./imgs/loginImgs/password.png">
+					<input type="password" name="">
+				</div>
+			</li>
+			<li class="contentItem">
+				<div class="label">性别</div>
+				<div class="formItem">
+					<img src="./imgs/loginImgs/sex.png">
+					<input type="radio" name="sex" value="male" checked>男
+					<input type="radio" name="sex" value="female">女
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="btns">注册</div>
+</div>
+<div class="layer"></div>
+<script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>

@@ -46,16 +46,19 @@ function activeMenu(){
 function signIn(item){
     console.log($(item).text());
     $('.login').show(); 
+    $('.layer').show(); 
     $('.btns').text($(item).text());   
 }
 //点击注册方法
 function signUp(item){
     $('.login').show();
+    $('.layer').show(); 
     $('.btns').text($(item).text());    
 }
 //关闭注册界面
 function closeFun(){
     $('.login').hide();
+    $('.layer').hide(); 
 }
 
 
