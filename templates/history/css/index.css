@@ -36,12 +36,12 @@ a{
         display: none;
     }
     .content{
-        width: 86.88rem;
+        width: 100%;
         height:auto;
         margin: 0 auto;
     }
     .header{
-        width: 86.88rem;
+        width: 100%;
         height: 7.94rem;
         background-color: #FC8995;
     }
@@ -49,9 +49,9 @@ a{
         width: 20.94rem;
         height: 5.06rem;
         display: inline-block;
-        margin: 1.4% auto auto 12%;
+        margin: 1.4% auto auto 0%;
         color: #fff;
-        font-size: 3.63rem;
+        font-size: 2.63rem;
         text-align: right;
     }
     .smallTitle{
@@ -96,7 +96,7 @@ a{
         height: 18px;
     }
     .menu{
-        width: 86.88rem;
+        width: 100%;
         height: 50px;
         background-color: #FDA9C0;
     }
@@ -114,7 +114,7 @@ a{
         float: left;
     }
     .menu .menuTitle,.menu .menuSearch{
-        width: 15rem;
+        width: 20%;
     }
     .menu .menuSearch{
         height: 43px;
@@ -124,7 +124,7 @@ a{
         padding-left:0.8%;
     }
     .menu .menuA{
-        width: 54.88rem;
+        width: 59%;
     }
     .menu .menuTitle span:first-child{
         font-size: 18px;
@@ -166,7 +166,7 @@ a{
         cursor: pointer;
     } 
     .firstContent{
-        width: 86.88rem;
+        width: 100%;
         height: auto;
         margin-top: 0.6%;
     }
@@ -178,9 +178,10 @@ a{
     }
     .firstContent div{
         float: left;
+        width: 80%;
     }
     .firstContent div.one,.firstContent div.one1{
-        width:6.25rem;
+        width:9%   ;
         height: auto;        
     }
     .firstContent .one{        
@@ -213,12 +214,12 @@ a{
     }
 
     .firstContent .pContent .three{
-        width: 72rem;
+        width: 100%;
         height: auto;
     }
     .firstContent .pContent .three ul li{
         float: left;
-        width: 20.94rem;
+        width: 28.333%;
         height: auto;
         text-align: center;
         padding:0 1rem;
@@ -227,7 +228,7 @@ a{
         text-align: left;
     }
     .firstContent .pContent .three ul li.center h3{
-        height: 2rem;
+        /*height: 2rem;*/
         line-height: 2rem;
     }
     .firstContent .pContent .three ul li.center p{
@@ -260,14 +261,14 @@ a{
     }
     .firstContent .pContent .three ul li.right .menu{
         display: block;
-        width: 22.81rem;
+        width: 100%;
         height: 5.94rem;
         background: #FAB8C1;
         margin-bottom: 2rem;
     }
     .firstContent .pContent .three ul li.right .menu1{
         display: block;
-        width: 22.81rem;
+        width: 100%;
         height: 15.31rem;
         background: #FAB8C1;
         margin-bottom: 2rem;
@@ -382,7 +383,7 @@ a{
 
 
     .sevenContent{
-        width: 86.88rem;
+        width: 100%;
         height: 15.31rem;
         margin-top: 3.5%;    
     }
@@ -392,7 +393,7 @@ a{
     }
     .sevenContent ul li{
         display: inline-block;
-        width: 15.31rem;
+        width: 20%;
         height: 15.31rem;
         line-height: 15.31rem;
         margin-right: 2.3%;
@@ -405,13 +406,13 @@ a{
         height:129px;
     }
     .footer{
-        width: 86.88rem;
+        width: 100%;
         margin-top: 3.5%; 
         background-color: #FC8995;
         color: #fff;
     }
     .footer ul.clear{
-        padding:3rem 6rem;
+        padding:3rem 1rem;
         font-size: 12px;
     }
     .footer ul.clear li h4{
@@ -421,7 +422,7 @@ a{
         float: left;
     }
     .footer ul.clear li.info{
-        width: 20rem;
+        width: 30%;
         height: 14rem;
     }
     .footer ul.clear li.info h4{
@@ -429,14 +430,14 @@ a{
     }
     .footer ul.clear li.info ul li{
         display: inline-block;
-        width: 2.21rem;
+        width: 1.21rem;
         height: 1.49rem;
         margin-right: 2rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
     .footer ul.clear li.followMe{
-        width: 28rem;
+        width: 30%;
         height: 14rem; 
     }
     .footer ul.clear li.followMe ul li{
@@ -449,7 +450,7 @@ a{
     }
     
     .footer ul.clear li.company{
-        width: 25rem;
+        width: 40%;
         height: 14rem; 
     }
     .footer ul.clear li.company ul li{
@@ -465,7 +466,7 @@ a{
         margin: 1rem;
     }
     .footer ul.clear li.company ul li:last-child{
-        width: 15rem;
+        width: 9rem;
         height: 12rem;
         word-break:break-all;
         word-wrap:break-word;
@@ -501,12 +502,12 @@ a{
         display: block;
     }
     .content{
-        width: 86.88rem;
+        width: 100%;
         height:auto;
         margin: 0 auto;
     }
     .header{
-        width: 86.88rem;
+        width: 100%;
         height: 7.94rem;
         background-color: #FC8995;
     }
@@ -514,20 +515,17 @@ a{
         width: 20.94rem;
         height: 5.06rem;
         display: inline-block;
-        margin: 1.4% auto auto 12%;
+        margin: 1.4% auto auto 0%;
         color: #fff;
-        font-size: 3.63rem;
+        font-size: 2.63rem;
         text-align: right;
     }
     .smallTitle{
         color: #fff;
     }
-    .menuPc{
-        display: none;
-    }
     .rightFunctionalArea{
         float: right;
-        width: 25.7%;
+        width: 50%;
         height: 5.06rem;
         line-height: 5.06rem;
     }
@@ -564,36 +562,25 @@ a{
         height: 18px;
     }
     .menu{
-        width: 86.88rem;
+        width: 100%;
         height: 50px;
         background-color: #FDA9C0;
     }
     .menu2{
-        display: block;
-        width: 64.88rem;
-        height: 50px;
-        background-color: #FFF;
+        display: none;
     }
     .menu2 .saoma{
         display: none;
     }
-    .menu2 .erweima{
+    .menu2 .erweima,.menu2 .erweima1{
         display: none;
-    }
-    .menu2 .erweima1{
-        display: block;
-        width: 5rem;
-        height: 5rem;
     }
     .menu div{
         height: 43px;
         float: left;
     }
-    .menu .menuTitle{
-        width: 20rem;
-    }
-    .menu .menuSearch{
-        width: 32rem;
+    .menu .menuTitle,.menu .menuSearch{
+        width: 20%;
     }
     .menu .menuSearch{
         height: 43px;
@@ -604,10 +591,11 @@ a{
     }
     .menu .menuA{
         width: 100%;
+        text-align: center;
     }
     .menu .menuTitle span:first-child{
         font-size: 18px;
-        color: #fda9c0;
+        color: #FFFFFF;
         text-align: left;
         display: block;
     }
@@ -621,7 +609,6 @@ a{
         list-style-type:none;
         margin:0;
         padding:0;
-        text-align: center;
     }
     .menu .menuA ul li{
         display:inline;
@@ -633,50 +620,20 @@ a{
     .menuSearch{
         position: relative;
     }
-    .menuSearch img.search{
+    .menuSearch input[type=text]{
+        width: 12.75rem;
+        height: 1.56rem;
+    }
+    .menuSearch img{
         width: 20.4px;
         height: 20.4px;
         position: absolute;
-        left: 5px;
+        left: 180px;
         top: 13px;
         cursor: pointer;
     } 
-    .menuSearch img.canemar{
-        width: 20.4px;
-        height: 20.4px;
-        position: absolute;
-        left: 195px;
-        top: 13px;
-        cursor: pointer;
-    } 
-    .pContent{
-        width: 72rem;
-        margin-right: 1.1%;
-    }
-    .pContent .menu2 .menuA{
-        display: none;
-    }
-    .pContent .menu2 .menuSearch input{
-        width: 24.08rem;
-        height: 3.5rem;
-        border: 1px solid #FC8995;
-        border-radius: 8.91px 0px 0px 8.91px;
-    }
-    .pContent .menu2 .menuSearch  .secrchBtn{
-        display: inline-block;
-        width: 4.36rem;
-        height: 3.5rem;
-        line-height: 3.5rem;
-        background: #FC8995;
-        border: 0 solid #FC8995;
-        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.05);
-        border-radius: 0 8.91px 8.91px 0;
-        color: #fff;
-        vertical-align: middle;
-        text-align: center;
-    }
     .firstContent{
-        width: 86.88rem;
+        width: 100%;
         height: auto;
         margin-top: 0.6%;
     }
@@ -688,9 +645,10 @@ a{
     }
     .firstContent div{
         float: left;
+        width: 80%;
     }
     .firstContent div.one,.firstContent div.one1{
-        width:6.25rem;
+        width:9%   ;
         height: auto;        
     }
     .firstContent .one{        
@@ -723,12 +681,12 @@ a{
     }
 
     .firstContent .pContent .three{
-        width: 72rem;
+        width: 100%;
         height: auto;
     }
     .firstContent .pContent .three ul li{
         float: left;
-        width: 20.94rem;
+        width: 28.333%;
         height: auto;
         text-align: center;
         padding:0 1rem;
@@ -737,7 +695,7 @@ a{
         text-align: left;
     }
     .firstContent .pContent .three ul li.center h3{
-        height: 2rem;
+        /*height: 2rem;*/
         line-height: 2rem;
     }
     .firstContent .pContent .three ul li.center p{
@@ -749,7 +707,7 @@ a{
     .firstContent .pContent .three ul li.center ul li{
         float: left;
         width: 10rem;
-        height: 8.06rem;
+        height: auto;
         padding:0px;
         margin-top: 2rem;
     }
@@ -760,7 +718,7 @@ a{
     }
     .firstContent .pContent .three ul li.center ul li:first-child{
         width: 10rem;
-        height: 8.06rem;
+        height: auto;
     }
     .firstContent .pContent .three ul li.center ul li:last-child{
         
@@ -770,14 +728,14 @@ a{
     }
     .firstContent .pContent .three ul li.right .menu{
         display: block;
-        width: 22.81rem;
+        width: 100%;
         height: 5.94rem;
         background: #FAB8C1;
         margin-bottom: 2rem;
     }
     .firstContent .pContent .three ul li.right .menu1{
         display: block;
-        width: 22.81rem;
+        width: 100%;
         height: 15.31rem;
         background: #FAB8C1;
         margin-bottom: 2rem;
@@ -834,7 +792,7 @@ a{
         background: #9CDCF4;
         box-shadow: 4px 6px 34px 0 rgba(0,0,0,0.04);
         float: right;  
-        margin-top: 4rem; 
+        margin-top: 2rem; 
     }
     .secondContent .more{
         width: 10.38rem;
@@ -892,7 +850,7 @@ a{
 
 
     .sevenContent{
-        width: 86.88rem;
+        width: 100%;
         height: 15.31rem;
         margin-top: 3.5%;    
     }
@@ -902,7 +860,7 @@ a{
     }
     .sevenContent ul li{
         display: inline-block;
-        width: 15.31rem;
+        width: 20%;
         height: 15.31rem;
         line-height: 15.31rem;
         margin-right: 2.3%;
@@ -911,11 +869,11 @@ a{
     }
     .sevenContent ul li img{
         vertical-align: middle;
-        width: 90px;
-        height: 90px;
+        width: 50%;
+        height: 50%;
     }
     .footer{
-        width: 86.88rem;
+        width: 100%;
         margin-top: 3.5%; 
         background-color: #FC8995;
         color: #fff;
@@ -931,7 +889,7 @@ a{
         float: left;
     }
     .footer ul.clear li.info{
-        width: 20rem;
+        width: 45%;
         height: 14rem;
     }
     .footer ul.clear li.info h4{
@@ -946,7 +904,7 @@ a{
         margin-bottom: 2rem;
     }
     .footer ul.clear li.followMe{
-        width: 28rem;
+        width: 45%;
         height: 14rem; 
     }
     .footer ul.clear li.followMe ul li{
@@ -959,7 +917,7 @@ a{
     }
     
     .footer ul.clear li.company{
-        width: 25rem;
+        width: 100%;
         height: 14rem; 
     }
     .footer ul.clear li.company ul li{
@@ -968,14 +926,14 @@ a{
         height: 1.49rem;
     }
     .footer ul.clear li.company ul li:first-child{
-        width: 10rem;
+        width: 18rem;
         height: 12rem;
     }
     .footer ul.clear li.company ul li:first-child div{
         margin: 1rem;
     }
     .footer ul.clear li.company ul li:last-child{
-        width: 15rem;
+        width: 17rem;
         height: 12rem;
         word-break:break-all;
         word-wrap:break-word;
@@ -1008,7 +966,7 @@ a{
         display: none;
     }
     html{
-        font-size: 5.5px;
+        font-size: 5.2px;
     }
     .menuPc{
         display: none;
@@ -1253,7 +1211,7 @@ a{
         width: 28.94rem;
         height: auto;
         text-align: center;
-        padding:0 1rem;
+        padding:0 2rem;
     }
     .firstContent .pContent .three ul li.left{
         width: 28.94rem;
@@ -1298,11 +1256,11 @@ a{
     }
     .firstContent .pContent .three ul li.right{
         text-align: left;
-        width: 50.94rem;
+        width: 45.94rem;
     }
     .firstContent .pContent .three ul li.right .menu{
         display: block;
-        width: 22.81rem;
+        width: 35.81rem;
         height: 5.94rem;
         background: #FAB8C1;
         margin-bottom: 2rem;
@@ -1330,7 +1288,7 @@ a{
         line-height: 2rem;
     }
     .firstContent .pContent .three ul li.right p{
-        font-size: 17px;
+        font-size: 13px;
         color: #535353;
         letter-spacing: 0;
         text-align: justify;
